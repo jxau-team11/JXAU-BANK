@@ -1,7 +1,7 @@
 # JXAU-BANK
 
 第11组
-孟卓凡：1198966378@qq.com
+孟卓凡：mengzhuofan
 李思源：
 王锦韬：376976253@qq.com
 蒋亦静：
