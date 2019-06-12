@@ -7,7 +7,7 @@
 蒋亦静：JYJjing
 李阳：liyang4856
 陈梓杨：czy1115
-李柔静：
+李柔静：kiki575
 蔡昱：COIJUK
 艾书懿：aishuyi
 刘洁岑：1024640455
