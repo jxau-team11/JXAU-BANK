@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .all_title{
 		display: flex;
 		flex-direction: column;
@@ -75,7 +75,6 @@
     .all-main{
     	width: 100%;
     	display: flex;
-    	flex-direction: row;
     	margin-top: 0.5rem;
     } 
     .all-lot{
@@ -108,7 +107,7 @@
         width: 108%;
         text-align: center;
     }
-=======
+
 .all_title{
 		display: flex;
 		flex-direction: column;
@@ -185,7 +184,6 @@
     .all-main{
     	width: 100%;
     	display: flex;
-    	flex-wrap: wrap;
     	margin-top: 0.5rem;
     } 
     .all-lot{
@@ -214,4 +212,4 @@
     	margin: 10px;
     border-left: 3px solid red;
     }
->>>>>>> 7f16e1e45e9c747c0e1ca0c23bfa6fc251b1a7e7
+
