@@ -74,7 +74,7 @@
     .all-main{
     	width: 100%;
     	display: flex;
-    	flex-wrap: wrap;
+    	flex-direction: row;
     	margin-top: 0.5rem;
     } 
     .all-lot{
@@ -83,12 +83,12 @@
     flex-direction: column;
     align-items: center;
     padding: 0.25rem;
-    margin-right: 0.5rem;
+    margin-right: 0.48rem;
     padding-bottom: 0.9375rem;
     }
     .all-lot p{
     margin: 0;
-    font-size: 0.81rem;
+        font-size: 0.76rem;
     margin-top: 0.4rem;
     }
     .all-lot img{
@@ -102,4 +102,8 @@
     .all-nav1 p{
     	margin: 10px;
     border-left: 3px solid red;
+    }
+    .all-lot a{
+        width: 108%;
+        text-align: center;
     }
