@@ -12,3 +12,5 @@
 艾书懿：aishuyi
 刘洁岑：1024640455
 熊婉婷：Rebeccaqaz
+
+蒋亦静第二次作业：今天重新学习了display：table-cell属性。学习了自动换行的处理方式，word-break规定紫红换行的处理方式有normal使用浏览器默认的换行规则，有break-all允许在单词内换行，有keep-all只能在半角空格或连字符处换行。而word-wrap允许长单词或URL地址换行到下一行。
