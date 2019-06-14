@@ -172,6 +172,10 @@ a{
 	height: 2.33333rem;
 	line-height: 2.3333rem;
 }
+.likeitem{
+	margin-bottom: 1rem;
+	border: 1px solid palevioletred;
+}
 .like div img{
 	width: 1rem;
 }
