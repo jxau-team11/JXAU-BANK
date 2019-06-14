@@ -1,0 +1,57 @@
+body{
+	margin: 0 auto;
+	padding: 0;
+}
+.new_function_introall{
+	width: 100%;
+	height: 37rem;
+	
+}
+.new_function_introbody{
+	width: 500%;
+	height: 37rem;
+	display: flex;
+	animation-name: new_function;
+	animation-duration: 10s;
+}
+.new_function_introall_lun{
+	width: 20.17%;
+	float: left;
+	margin-left: -0.1rem;
+}
+.new_function_introall_guding{
+	position: absolute;
+    width: 3rem;
+    height: 1.4rem;
+    border-radius: 1rem;
+    text-align: center;
+    background-color: #f9fbfb00;
+    top: 0.8%;
+    right: 2.9%;
+}
+a{
+	text-decoration: none;
+	color: #000000;
+}
+@keyframes new_function{
+	0%{margin-left: 0%;}
+	20%{margin-left: -100%;}
+	40%{margin-left: -200%;}
+	60%{margin-left: -300%;}
+	80%{margin-left: -400%;}
+}
+img{
+	float: left;
+	
+}
+.new_function_introall_gud2{
+	position: relative;
+    top: 86.5%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 10.5rem;
+    border-radius: 2rem;
+    box-shadow: 0.2rem 0.2rem 0.5rem;
+    height: 2.3rem;
+    background-color: #f7faf900;
+}

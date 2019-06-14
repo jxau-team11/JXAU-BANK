@@ -1,0 +1,198 @@
+.oil_body{
+	background-color: whitesmoke;
+}
+body{
+	margin: 0;
+}
+.oil_head{
+	width: 100%;
+	height: 1.25rem;
+	text-align: center;
+	line-height: 0.625rem;
+	background-color: white;
+	border-bottom: 1px solid gray;
+}
+.oil_style{
+	height: 1.5625rem;
+	width: 100%;
+	background-color: white;
+}
+.oil_suspensionleft{
+	font-size: small;
+	float: left;
+}
+.oil_suspensionrihgt{
+	font-size: medium;
+	float: right;
+}
+.oil_hide{
+	width: 100%;
+	height: 2.1875rem;
+	background-color: white;
+	margin: 0 auto;
+}
+.oil_onehundred{
+	width: 32%;
+	height: 100%;
+	border: 1px solid whitesmoke;
+	float: left;
+	text-align: center;
+	background-color: white;
+	color: red;
+	line-height: 2rem;
+	position: relative;
+}
+.oil_onehundred:hover {
+	background-color: red;
+	color: white;
+}
+.oil_onehundred:hover .oil_onehundred-show{
+	display: block;
+
+}
+.oil_onehundred-show{
+	display: none;
+	margin-top: 123px;
+
+	position: absolute;
+	height: 2.4375rem;
+	background-color: white;
+	font-size: small;
+	line-height: 2.3125rem;
+	width: 100%;
+	margin-left: -0.3125rem;
+}
+.oil_fivehundred{
+	width: 33%;
+	height: 100%;
+	border: 1px solid whitesmoke;
+	float: left;
+	text-align: center;
+	color:red;
+	line-height: 2rem;
+}
+.oil_fivehundred:hover {
+	background-color: red;
+	color: white;
+}
+.oil_fivehundred:hover .oil_onehundred-show-two{
+	display: block;
+
+}
+.oil_onehundred-show-two{
+	    display: none;
+    margin-top: 123px;
+    position: absolute;
+    height: 2.4375rem;
+    background-color: white;
+    font-size: small;
+    line-height: 2.3125rem;
+    margin-left: -7.3125rem;
+    width: 31%;
+}
+.oil_tenhundred{
+	width: 33%;
+	height: 100%;
+	border: 1px solid whitesmoke;
+	float: left;
+	text-align: center;
+	color: red;
+	line-height: 2rem;
+}
+.oil_tenhundred:hover {
+	background-color: red;
+	color: white;
+}
+.oil_tenhundred:hover .oil_onehundred-show-three{
+	display: block;
+
+}
+.oil_onehundred-show-three{
+	    display: none;
+    margin-top: 123px;
+    position: absolute;
+    height: 2.4375rem;
+    background-color: white;
+    font-size: small;
+    line-height: 2.3125rem;
+    margin-left: -14.375rem;
+    width: 31%;
+}
+.oil_number{
+	width: 100%;
+	height: 5rem;
+}
+.oil_card{
+	width: 100%;
+	height: 2.4375rem;
+	background-color: white;
+	font-size: small;
+	line-height: 2.3125rem;
+	text-align: center;
+}
+input{
+	width: 53%;
+	height: 1.25rem;
+	border: 0px solid white;
+}
+.oil_phone{
+	width: 100%;
+	height: 2.4375rem;
+	background-color: white;
+	margin-top: 0.125rem;
+	font-size: small;
+	line-height: 2.3125rem;
+	text-align: center;
+}
+input{
+	height: 1.25rem;
+	border: 0px solid white;
+}
+.oil_price{
+	width: 100%;
+	height: 2.4375rem;
+	background-color: white;
+	font-size: small;
+	line-height: 2.3125rem;
+}
+.oil_nowrecharge{
+	width: 95%;
+	height: 2rem;
+	border: 1px solid red;
+	background-color: red;
+	margin: auto;
+}
+.oil_nowrecharge p{
+	text-align: center;
+	margin-top:0.625rem;
+	color: white;
+	font-size: x-small;
+}
+.oil_history{
+	width: 100%;
+	height: 2.4375rem;
+	background-color: white;
+	line-height: 2.3125rem;
+	font-size: small;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.oil_problme{
+	width: 45%;
+	height: 1.5625rem;
+	border-radius: 10px;
+	border: 1px solid gray;
+	background-color: gray;
+	margin: auto;
+	text-align: center;
+	font-size: small;
+	line-height: 1.25rem;
+}
+.oil_Customerservice{
+	width: 100%;
+	height: 1.25rem;
+	text-align: center;
+	font-size: x-small
+}
