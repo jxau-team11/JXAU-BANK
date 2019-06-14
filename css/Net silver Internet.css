@@ -1,0 +1,101 @@
+body{
+	margin: 0;
+	background-color: rgb(241,242,242);
+}
+p{
+	margin: 0;
+	margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.net-interner-header{
+	width: 100%;
+	height: 3.125rem;
+	line-height: 3.125rem;
+	text-align: center;
+	vertical-align: middle;
+	background-color: white;
+}
+.net-interner-header img {
+	width: 1.875rem;
+	float: left;
+	margin-top: 0.6875rem;
+
+}
+.net-interner-header span{
+	font-size: 1.325rem;
+}
+.net-interner-header-right{
+	float: right;
+}
+.net-interner-header-right img {
+	width: 1.5625rem;
+	padding-right: 0.3125rem;
+}
+.net-interner-box-one{
+	margin-top: 1.25rem;
+	width: 100%;
+	height: 3.25rem;
+	background-color: white;
+	line-height: 3.25rem;
+	vertical-align: middle;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	word-wrap:break-word;
+}
+
+.net-interner-box-one span{
+	padding-left: 0.625rem;
+}
+.net-interner-box-one img{
+	width: 1.25rem;
+	vertical-align: middle;
+	padding-right: 0.5rem;
+}
+.net-interner-box-one-left{
+	
+}
+.net-interner-box-one-left-two span{
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 15px;
+
+}
+
+.joint-box-two{
+	margin-top: 1.25rem;
+		width: 100%;
+		height: 5.25rem;
+		
+		background-color: white;
+		vertical-align: middle;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		word-wrap:break-word;
+
+}
+.joint-box-two span{
+	margin-left: 0.625rem;
+	vertical-align: middle;
+}
+.joint-box-two img{
+	width: 1.25rem;
+	vertical-align: middle;
+	padding-right: 0.5rem;
+}
+.joint-box-two-left{
+	display: table-cell;
+	vertical-align: middle;
+
+}
+.joint-box-two-right{
+	line-height: 5.25rem;
+}
+.joint-box-two-left-txtone{
+	font-size: 1.125rem;
+}
+.joint-box-two-left-txttwo{
+	color: grey;
+	font-size: 0.8rem;
+}

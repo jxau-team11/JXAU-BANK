@@ -1,0 +1,311 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#contain{
+	width: 100%;
+    height: 28.0638rem;
+    color: white;
+    background: url(../img/AI-invest/bg2.png) no-repeat center;
+    background-size: cover;
+    padding: 1.1111rem 1.31111rem;
+    position: relative;
+}
+#contain  a{
+	text-decoration: none;
+	color: inherit;
+	cursor:pointer;
+}
+#contain .topmenu{
+	display: flex;
+	justify-content: space-between;
+}
+#contain .topmenu .return{
+	margin-top: 0.666rem;
+    font-size: 3.1333rem;
+}
+#contain .topmenu .AI{
+	font-size: 3.8888rem;
+	font-weight: 400;
+}
+#contain .topmenu .AI-define{
+	background: url(../img/AI-invest/vital.png) no-repeat left;
+    background-size: 3.33rem 3.33rem;
+    font-size: 2.5111rem;
+    margin-right: 2.5111rem;
+    margin-top: 1rem;
+}
+#contain .topmenu .AI-define a{
+	padding-left: 3.33rem;
+}
+#contain .brief-introduce{
+	margin-top: 3rem;
+    font-size: 2.3333rem;
+}
+#contain .brief-introduce .propery{
+	margin-bottom: 2.3rem;
+}
+#contain .brief-introduce p:nth-child(1){
+	padding-bottom: 1.555rem;
+}
+#contain .brief-introduce .propery span{
+	font-size: 4rem;
+}
+#contain .brief-introduce .assert-state{
+	display: flex;
+}
+#contain .brief-introduce .assert-state div:nth-child(2){
+	    margin-left: 17rem;
+}
+#contain .left-arrow{
+	font-size: 4rem;
+    position: absolute;
+    right: 4rem;
+    top: 46%;
+}
+#carousel{
+	width: 62rem;
+	height: 16rem;
+	position: relative;
+	margin:1rem;
+	overflow: hidden;
+}
+#carousel .carousel-content{
+	width: 187rem;
+	height:16rem;
+	position: absolute;
+	top: 0;
+	animation: a;
+	animation-duration: 15s;
+	animation-timing-function: ease-out;
+	animation-iteration-count: infinite;
+}
+@keyframes a{
+	0%{
+		margin-left: 0;
+	}
+	33.3%{
+		margin-left: -62rem;
+	}
+	66.6%{
+		margin-left: -124rem;
+	}
+	100%{
+		margin-left: 0;
+	}
+}
+#carousel .carousel-content img{
+	width: 62rem;
+	height: 16rem;
+	
+}
+#AI-intelligence .title{
+	display: flex;
+	width: 100%;
+	padding: 1rem 1rem;
+	height: 5rem;
+	vertical-align: 5rem;
+	line-height: 5rem;
+}
+#AI-intelligence .title .colomn{
+	width: 1rem;
+    background: #a83636;
+    height: 3rem;
+    margin-right: 2rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+#AI-intelligence .title .AI{
+	font-weight: 600;
+    font-size: 2.5rem;
+    margin-right: 3rem
+}
+#AI-intelligence .title .describe{
+	font-size: 2rem;
+}
+#AI-intelligence .title .hot{
+	font-size: 2rem;
+	color: #FFC107;
+}
+#AI-intelligence .title img{
+	width: 3rem;
+    height: 3rem;
+    margin-top: 1.2rem;
+    margin-left: 1rem;
+}
+#AI-intelligence .title .img2 {
+	width: 3rem;
+    height: 3rem;
+    margin-top: 1.2rem;
+    margin-left: 12rem;
+}
+#AI-intelligence .content a>div{
+	width: 75%;
+    height: 18rem;
+    border: 1px solid;
+    border-color: #ee9c82;
+    margin: auto;
+}
+#AI-intelligence  a{
+	text-decoration: none;
+	color: red;
+	cursor:pointer;
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+}
+#AI-intelligence .content .topline{
+	width: 100%;
+	height: 30%;
+	border-bottom: 1px solid;
+	border-color: #ee9c82;
+	display: flex;
+	color: #FF5722;
+}
+#AI-intelligence .content .data{
+	display: flex;
+	color: #FF5722;
+}
+#AI-intelligence .content .topline div:nth-child(1){
+	font-size: 2rem;
+    line-height: 5rem;
+    padding: auto 1rem;
+    margin-left: 1rem;
+}
+#AI-intelligence .content .topline div:nth-child(2){
+	font-size: 2rem;
+    line-height: 3rem;
+    padding: auto 1rem;
+    margin-left: 17rem;
+    border: 1px solid;
+    margin-top: 1rem;
+    border-radius: 0.75rem;
+    margin-bottom: 1rem;
+}
+#AI-intelligence .content .topline div:nth-child(3){
+	font-size: 2rem;
+    line-height: 3rem;
+    padding: auto 1rem;
+    margin-left: 1rem;
+    border: 1px solid;
+    margin-top: 1rem;
+    border-radius: 0.75rem;
+    margin-bottom: 1rem;
+}
+#AI-intelligence .content .data div{
+	width: 50%;
+    text-align: center;
+    line-height: 4rem;
+    margin-top: 2rem;
+}
+#AI-intelligence .content .data div:first-child p{
+	font-size: 3rem;
+    color: red;
+    font-weight: 700;
+}
+#AI-intelligence .content .data div:last-child p{
+	font-size: 3rem;
+    color: grey;
+    font-weight: 700;
+}
+#AI-intelligence .content .data div span{
+	font-size: 2rem;
+    color: gray;
+}
+#AI-intelligence .content a>p{
+	font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+#AI-intelligence .contentcount{
+	background: url(../img/AI-invest/background.png) no-repeat center;
+    background-size: cover;
+    border: 1px solid mistyrose;
+    width: 50rem;
+    height: 20rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    box-shadow: 5px 5px 5px #ecbbcc, 5px -5px 5px #ecbbcc, -5px 5px 5px #ecbbcc, -5px -5px 5px #ecbbcc;
+    text-align: center;
+
+}
+#AI-intelligence .contentcount p{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	
+}
+#AI-intelligence .contentcount p:nth-child(1){
+	font-size: 2.2rem;
+    font-weight: 600;
+}
+#AI-intelligence .contentcount p:nth-child(2){
+	font-size: 1.5rem;
+    color: grey;
+}
+#AI-intelligence .contentcount p:nth-child(3){
+	font-size: 3rem;
+    font-weight: 900;
+    color: red;
+}
+#AI-intelligence .contentcount p:nth-child(4){
+	font-size: 1.5rem;
+    color: red;
+}
+#AI-intelligence .display{
+	width:100%;
+	display: -webkit-box;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+	height: 24rem;
+}
+#AI-intelligence .displine{
+	margin-top: 1rem;
+}
+#AI-intelligence .displine .rule{
+	display: flex;
+	margin-bottom: 1rem;
+}
+#AI-intelligence .displine .rule div:nth-child(1){
+	font-size: 3.44rem;
+    height: 10rem;
+    width: 10rem;
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 4.75rem;
+    font-weight: 600;
+}
+#AI-intelligence .displine .rule.item1 div:nth-child(1){
+    border: 1px solid #E91E63;
+    color: #E91E63;
+}
+#AI-intelligence .displine .rule.item2 div:nth-child(1){
+   border: 1px solid #00BCD4;
+    color: #00BCD4;
+}
+#AI-intelligence .displine .rule.item3 div:nth-child(1){
+    border: 1px solid orangered;
+    color: orangered;
+}
+#AI-intelligence .displine .rule div:nth-child(2){
+	margin-top: 2rem;
+    width: 0.15rem;
+    height: 5rem;
+    background: gray;
+    margin-left: 2rem;
+    margin-right: 4rem
+}
+#AI-intelligence .displine .rule div:nth-child(3) p:first-child{
+	padding-top: 1rem;
+    font-size: 3rem;
+    font-weight: 600;
+}
+#AI-intelligence .displine .rule div:nth-child(3) p:last-child{
+	font-size: 2rem;
+    padding-top: 1rem;
+}
+#AI-intelligence .displine .rule div:nth-child(3) p:last-child span{
+	font-size: 2.5rem;
+    color: red;
+    font-weight: 400;
+}

@@ -1,0 +1,176 @@
+.recharge_body{
+	background-color: whitesmoke;
+	height: 38.125rem;
+}
+body{
+	margin: 0;
+}
+.recharge_head{
+	width: 100%;
+	height: 2.5rem;
+	text-align: center;
+	line-height: 2.5rem;
+	background-color: white;
+	border-bottom: 1px solid gray;
+}
+.recharge_name{
+	vertical-align: middle;
+	font-size: 1.25rem;
+}
+.recharge_hide{
+	width: 90%;
+	height: 2.5rem;
+	margin: 0 auto;
+}
+
+.recharge_bill{
+	width: 32%;
+	height: 100%;
+	line-height: 0.5rem;
+	border: 1px solid red;
+	float: left;
+	text-align: center;
+	background-color: red;
+}
+.recharge_bill p{
+	font-size: medium;
+	color: white;
+}
+.recharge_billtwo{
+	width: 32%;
+	height: 100%;
+	line-height: 0.5rem;
+	border: 1px solid red;
+	float: left;
+	text-align: center;
+	background-color: white;
+}
+.recharge_billtwo p{
+	font-size: medium;
+	color: red;
+}
+.recharge_flow{
+	width: 32%;
+	height: 100%;
+	line-height: 0.5rem;
+	border: 1px solid red;
+	float: left;
+	text-align: center;
+	background-color: white;
+}
+.recharge_flow p{
+	font-size: medium;
+}
+.recharge_flowtwo{
+	width: 32%;
+	height: 100%;
+	line-height: 0.5rem;
+	border: 1px solid red;
+	float: left;
+	text-align: center;
+	background-color: red;
+}
+.recharge_flowtwo p{
+	font-size: medium;
+	color: white;
+}
+a {
+	text-decoration: none;
+	color: #000000;
+}
+.recharge_history{
+	width: 32%;
+	height: 100%;
+	line-height: 0.5rem;
+	border: 1px solid red;
+	float: left;
+	text-align: center;
+	background-color: white;
+}
+.recharge_history p{
+	font-size: medium;
+}
+.now_recharge{
+	width: 100%;
+	height: 25rem;
+}
+input{
+	width: 100%;
+	height: 1.25rem;
+}
+.price{
+	width: 100%;
+	height: 5rem;
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.recharge_box{
+	width: 28%;
+	height: 40%;
+	border-radius: 4px;
+	border: 1px solid darkgray;
+	margin-left: 0.75rem;
+}
+.recharge_box p{
+	text-align: center;
+}
+.now_recharge{
+	width: 90%;
+	height: 1.5625rem;
+	border-radius: 10px;
+	border: 1px solid red;
+	background-color: red;
+	margin: auto;
+}
+.now_recharge p{
+	text-align: center;
+	margin-top:0.25rem;
+	color: white;
+}
+.recharge_under{
+	width: 100%;
+	height: 16rem;
+}
+.recharge_colorred{
+	color: red;
+}
+.recharge_colorbule{
+	color: blue;
+}
+p{
+	font-size: small;
+}
+
+.recharge_undertwo span{
+	font-size: small;
+}
+.recharge_numbertwo input{
+	width: 83%;
+}
+.recharge_return{
+	float: left;
+}
+.recharge_undertwo{
+	width: 100%;
+	height: 29rem;
+}
+
+.oil_numbertwo input{
+	width: 70%;
+	margin: auto;
+}
+.oil_numbertwo{
+	width: 95%;
+    height: 2rem;
+	margin: auto;
+}
+.oil_code{
+	width: 95%;
+	margin: auto;
+}
+.oil_code input{
+	width: 95%;
+	margin: auto;
+}
