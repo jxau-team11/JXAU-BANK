@@ -1,0 +1,145 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+@media screen and(max-device-width:600px){
+	
+}
+@media screen and(min-device-width:600px){
+	
+	}
+a{
+	text-decoration: none;
+	color:#000;
+}	
+header{
+	width: 100%;
+	height:2.5rem ;
+	display: flex;
+	align-items: center;
+} 
+header img{
+	width: 1.4rem;
+}
+#epay-logo{
+	width: 78%;
+	text-align: center;
+	padding-bottom: 0.35rem;
+}
+#epay-logo span{
+	font-weight: 580;
+	background:-webkit-linear-gradient(right,#ff5b00f5,#f6ce0d,#ff0000fa);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+head p{
+	font-size: 1.3rem;
+	font-weight: 700;
+	color: #007AFF;
+}
+.sanjiao{
+	width:0px;
+	height:0px;
+	border-width:8px 0px 8px 8px;
+	border-style:solid;
+	border-color:transparent transparent transparent #fff;/*透明 透明 透明 灰*/
+	position: absolute;
+	top:-0.6875rem;
+	right:0.55rem;
+	z-index: 10;
+	transform: rotate(270deg);
+}
+#more{
+	width: 4rem;
+	position: absolute;
+	background-color: #fff;
+	left: -2.55rem;
+	top:1.9rem;
+	display: none;
+}
+#more li{
+	width: 90%;margin: 0 auto;
+	border-bottom: 0.0625rem solid #ebebeb;
+	color: #000;
+	margin-bottom: 0.169rem;
+	font-size: 0.85rem;
+	padding: 0.2rem;
+}
+#more li a{
+	margin-left: 0.2rem;
+}
+#more-point{
+	position: relative;
+}
+#more-point:hover #more{
+	filter: brightness(96.68%);
+	display: block;
+}
+.epay-top{
+	width: 100%;
+	height: 5.95rem;
+	background-color: #ff7a7b;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+.epay-top a{
+	margin-top: 0.38rem;
+	flex: 0 0 33.33%;
+}
+.epay-top img{
+	width: 2.55rem;
+}
+.epay-top p{
+	color:#fff;
+	font-size: 1.2rem;
+}
+.epay-bar{
+	display: -webkit-box;
+	overflow-x: scroll;
+	-webkit-overflow-scrolling: touch;
+	width: 100%;
+	height: 4.5rem;
+}
+.epay-bar-item a{
+	margin-left: 0.55rem;
+}
+.epay-bar-item img{
+	width: 1.5rem;
+}
+.epay-bar-item span{
+	position: absolute;
+	top:0.188rem;
+	margin-left: 0.1rem;
+}
+.epay-bar-item{
+	margin-top: 1.255rem;
+	width: 33%;
+	height: 1.8rem;
+	border-right: 0.0625rem solid #EBEBEB;
+	position: relative;
+}
+.epay-space{
+	width: 100%;
+	height: 0.85rem;
+	background: #f7f7f7;
+}
+.epay-box{
+	display: flex;
+	flex-wrap: wrap;
+}
+.epay-boxs{
+	flex: 0 0 32.5%;
+	height: 7.12rem;
+	border: 0.062rem solid #ebebeb;
+	text-align: center;
+	
+}
+
+.epay-boxs img{
+	width: 3.4rem;
+	margin-top: 0.9rem;
+}
+.epay-ad img{
+	width: 100%;
+}

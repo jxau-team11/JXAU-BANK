@@ -5,8 +5,12 @@ margin: 0;
 a{
 	text-decoration: none;
 	color: #0d131a;
+
 }
-@media screen and(max-device-width:500px){
+#more-plus:touchstart body{
+	-webkit-filter: brightness(80%);
+}
+@media screen and(max-device-width:600px){
 	.swiper-container{
 			width: 100%;
 			height: 11.25rem;
@@ -16,7 +20,7 @@ a{
 		height:2.5rem ;
 	}
 }
-@media screen and(min-device-width:500px){
+@media screen and(min-device-width:600px){
 .swiper-container{
 		width: 100%;
 		height: 23.25rem;
@@ -29,7 +33,7 @@ a{
 		
 header{
 	width: 100%;
-	/* height: 2.5rem; */
+	height: 2.5rem; 
 	box-shadow: 0 2rem 4.875rem -3.1rem #0D131A inset;
 	display: flex;
 	position: fixed;
@@ -194,7 +198,7 @@ header form img:last-child{
 	75%{
 		margin-top: -3rem;
 	}
-	86%,99.99%{
+	85%,99.99%{
 		margin-top:-6rem;
 	}
 	100%{
