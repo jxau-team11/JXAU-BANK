@@ -39,7 +39,7 @@ body{
 	margin-left: 20rem;
 }
 .bottom_c{
-	border-bottom: 0.01rem solid #9e9e9e;
+	border-bottom: 0.01rem solid #000;
 }
 .contain_c{
 	background: whitesmoke;
@@ -49,16 +49,16 @@ body{
 }
 .list_c{
 	width: 100%;
-	height: 6rem;
+	height: 8rem;
 	background: white;
-	line-height: 6rem;
+	line-height: 8rem;
 	margin-top: 3rem;
 	position: relative;
 }
 .list_c img{
 	width: 4rem;
 	height: 4rem;
-	margin-top: 1rem;
+	margin-top: 2rem;
     margin-left: 2rem;
     float: left;
 }
@@ -72,6 +72,10 @@ body{
 .list_c .img img{
 	width: 3rem;
 	height: 3rem;
-	margin-top: 1.5rem;
+	margin-top: 2.5rem;
     margin-right: 1.5rem;
+}
+.list_d{
+	border-top: 0.01rem solid #b0abab;
+	border-bottom: 0.01rem solid #b0abab;
 }
