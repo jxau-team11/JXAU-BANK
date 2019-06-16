@@ -1,0 +1,71 @@
+body{
+	margin: 0;
+	background-color: rgb(241,242,242);
+}
+p{
+	margin: 0;
+	margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.alhotproblem_head a{
+	text-decoration: none;
+	color: #000000;
+}
+.alhotproblem_head{
+	width: 100%;
+	height: 3.125rem;
+	line-height: 3.125rem;
+	text-align: center;
+	vertical-align: middle;
+	background-color: white;
+}
+.alhotproblem_head img {
+	width: 1.875rem;
+	float: left;
+	margin-top: 0.6875rem;
+
+}
+.alhotproblem_head span{
+	font-size: 1.325rem;
+}
+.alhotproblem_head-right{
+	float: right;
+}
+.alhotproblem_head-right img {
+	width: 1.5625rem;
+	padding-right: 0.3125rem;
+}
+.alhotproblem-img{
+	width: 100%;
+	height: 50rem;
+}
+.alhotproblem-img img{
+	width: 21.5rem;
+}
+.al-answer-box{
+	width: 100%;
+	height: 50rem;
+}
+.al-answer-box-one{
+	max-width: 95%;
+	height: 1.875rem;
+	margin:  0 auto;
+	border-bottom: 0.00625rem solid silver;
+}
+.al-answer-box-one span{
+	line-height: 1.875rem;
+	vertical-align: middle;
+}
+.al-answer-box-two{
+	max-width: 95%;
+	height: 3.75rem;
+	margin:  0 auto;
+	border-bottom: 0.00625rem solid silver;
+	
+}
+.al-answer-box-two p{
+	color: red;
+}
+.al-answer-box-two span{
+	font-size: 0.8rem;
+}
