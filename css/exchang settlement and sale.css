@@ -1,0 +1,232 @@
+.exchange{
+    width:100%;
+    height: 38.1rem;
+    padding: 0;
+    margin: 0;
+    background-color: whitesmoke;
+}
+.exchange_header{
+    width: 100%;
+    height: 2rem;
+    position: fixed;
+    z-index: 100000;
+    background-color: #FDFDFD;
+}
+#exchange_i1{
+    content: "";
+    position: absolute;
+    border:solid #716a6a;
+    width: 0.6rem;
+    height: 0.6rem;
+    transform: translate(-50%, -50%) rotate(45deg);
+    left: 1.5rem;
+    top: 1rem;
+    border-width: 0 0 0.1rem 0.1rem;
+}
+.exchange_header_text1{
+    color: #63679a;
+    font-size: 1rem;
+    text-align: center;
+    display: block;
+    top: -0.8rem;
+    font-weight: 600;
+    position: relative;
+}
+.exchange__header_text2{
+    font-size: 0.8rem;
+    color: gray;
+    position: relative;
+    top: 0.4rem;
+    left: 17.5rem;
+}
+.exchange_header_a1{
+    text-decoration: none;
+}
+.exchange_col1{
+    width: 100%;
+    height: 4.6rem;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 2.15rem;
+}
+.exchange_col1_a1{
+   text-decoration: none;
+    display: block;
+    width: 100%;
+    height:2rem;
+    position: relative;
+    top: 0rem;
+    
+}
+.exchange_col1_text1{
+    color: #63679a;
+    position: relative;
+    top: -0.25rem;
+    left: 1rem;
+    font-size:0.9rem;
+}
+.exchange_col1_img1{
+    height: 1.6rem;
+    width: 1.6rem;
+    position: relative;
+    top: 0.2rem;
+    left: 0.9rem;
+}
+.exchange_col1_img2{
+    height: 2rem;
+    width: 9rem;
+    position: relative;
+    top: 0.2rem;
+    left: 7rem;
+}
+.exchange_col1_text2{
+    color: #63679a;
+    font-size: 0.9rem;
+    position: relative;
+    top: 0.5rem;
+    left: 1rem;
+}
+.exchange_col1_i1{
+    content: "";
+    border: 0.01rem solid red;
+    border-radius: 50%;
+    color: #63679a;
+    width: 1.2rem;
+    height: 1.2rem;
+    position: absolute;
+    top: 2.47rem;
+    left: 8.3rem;
+}
+.exchange_col1_text3{
+    font-size: 0.85rem;
+    position: relative;
+    top: 0.5rem;
+    left: 6rem;
+}
+.exchange_col1_text4{
+    left:8.63rem;
+}
+.exchange_col1_i2{
+    left:14.63rem;
+}
+.exchange_col2{
+    width: 100%;
+    height: 1.8rem;
+    background-color: #585a79;
+    position: absolute;
+    top: 7.3rem;
+}
+.exchange_col2_a1{
+    text-decoration: none;
+}
+.exchange_col2_text1{
+    font-size:0.75rem;
+    color:white;
+    position: relative;
+    top: 0.3rem;
+    left: 0.3rem;
+}
+.exchange_col2_text2{
+    font-size:0.75rem;
+    color:white;
+    display: block;
+    width: 4rem;
+    position: relative;
+    top: -1.25rem;
+    left:5rem;
+}
+.exchange_col2_text3 {
+    top: -3.3rem;
+    left: 9rem;
+}
+.exchange_col2_text4 {
+    top: -5.3rem;
+    left: 13rem;
+}
+.exchange_col2_text5 {
+    top: -7.3rem;
+    left: 17rem;
+}
+.exchange_col3{
+    width: 100%;
+    height: 30rem;
+    background-color: #FFFFFF;
+    position: absolute;
+    top:9.22rem;
+}
+.exchange_col3_a1{
+    width: 100%;
+    height: 30rem;
+    position: absolute;
+    text-decoration: none;
+}
+.exchange_col3_list1{
+    width: 100%;
+    height: 30rem;
+    position: absolute;
+    text-decoration: none;
+}
+.exchange_col3_li1 {
+    height:2.2rem;
+    border-bottom: 0.01rem solid darkgray;
+    position: relative;
+}
+.exchange_col3_li2{
+    height:3.1rem;
+}
+.exchange_col3_text1{
+    color: #000;
+    top:0.4rem;
+    font-size: 0.8rem;
+}
+.exchange_col3_text2{
+    color: #000;
+    font-size: 0.8rem;
+    top: -0.6rem;
+    left: 5.8rem;
+}
+.exchange_col3_text3{
+    color:#000;
+    font-size: 0.8rem;
+    top: -1.5rem;
+    left: 9.8rem;
+}
+.exchange_col3_text4{
+    color: #000;
+    font-size: 0.8rem;
+    top: -2.4rem;
+    left: 13.8rem;
+}
+.exchange_col3_text5{
+    color: #000;
+    font-size: 0.8rem;
+    top: -3.3rem;
+    left: 17.8rem;
+}
+.exchange_col3_text6{
+    top:-1.2rem;
+}
+.exchange_col3_text7{
+    top:-2.1rem;
+}
+.exchange_col3_text8{
+    top:-3.0rem;
+}
+.exchange_col3_text9{
+    top:-3.9rem;
+}
+
+.exchange_col3_i1{
+    content: "";
+    position: absolute;
+    border: solid #99aec4;
+    width: 0.5rem;
+    height: 0.5rem;
+    transform: translate(-50%, -50%) rotate(225deg);
+    left: 20.5rem;
+    top: 1rem;
+    border-width: 0 0 0.2rem 0.2rem;
+}
+.exchange_col3_i2{
+    top:1.6rem;
+}
