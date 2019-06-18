@@ -4,6 +4,22 @@
 		<meta charset="UTF-8">
 		<title>AI投</title>
 		<link rel="stylesheet" href="css/AI.css" />
+		<script>
+		!(function(doc, win) {
+		var docEl = doc.documentElement,
+		resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+		recalc = function() {
+		var clientWidth = docEl.clientWidth;
+		if (!clientWidth) return;
+		docEl.style.fontSize = 18 * (clientWidth / 375) + 'px';
+		};
+		if (!doc.addEventListener) return;
+		win.addEventListener(resizeEvt, recalc, false);
+		doc.addEventListener('DOMContentLoaded', recalc, false);
+		})(document, window)
+		
+		</script>
+
 	</head>
 	<body>
 		<div id="contain">

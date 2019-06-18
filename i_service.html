@@ -4,7 +4,23 @@
 		<meta charset="UTF-8">
 		<!--<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">-->
  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"> 
-		<link rel="stylesheet" type="text/css" href="css/i_service.css">		
+		<link rel="stylesheet" type="text/css" href="css/i_service.css">
+		<script>
+		!(function(doc, win) {
+		var docEl = doc.documentElement,
+		resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+		recalc = function() {
+		var clientWidth = docEl.clientWidth;
+		if (!clientWidth) return;
+		docEl.style.fontSize = 18 * (clientWidth / 375) + 'px';
+		};
+		if (!doc.addEventListener) return;
+		win.addEventListener(resizeEvt, recalc, false);
+		doc.addEventListener('DOMContentLoaded', recalc, false);
+		})(document, window)
+		
+		</script>
+
 		<title>智服务</title>
 	</head>
 	<body>
@@ -83,20 +99,20 @@
 		</div>
 		<div class="special_service">
 
-			<h2>特色服务</h2>
+			<h3>特色服务</h3>
 
 
 			<div class="service_content">
 				<div>
 					<a href="#">
 						<h3>环球通</h3>
-						<p>出国金融专区</p>
+						<p>出国金融区</p>
 					</a>
 				</div>
 				<div>
 					<a href="#">
 						<h3>e起投</h3>
-						<p>炒黄金炒原油</p>
+						<p>炒黄金原油</p>
 					</a>
 				</div>
 				<div>
@@ -108,13 +124,13 @@
 			</div>
 		</div>
 		<div class="like">
-			<h2>猜你喜欢</h2>
+			<h3>猜你喜欢</h3>
 			<div class="l-l">
-				<img src="img/i_service/finance.png" />
+				<img src="img/favorite-all-img/结售汇.png"/>
 				<div class="div1">理财</div>
 			</div>
 			<div class="likeitem">
-				<h3>工行e灵通</h3>
+				<h4>工行e灵通</h4>
 				<div class="c1">
 					<div>
 						<p>七日年化收益率</p>
@@ -134,7 +150,7 @@
 				</div>
 			</div>
 			<div class="likeitem">
-				<h3>保本稳利364天</h3>
+				<h4>保本稳利364天</h4>
 				<div class="c1">
 					<div>
 						<p>业绩比较基准</p>
@@ -154,7 +170,7 @@
 				</div>
 			</div>
 			<div class="likeitem">
-				<h3>中国工商银行净值型理财产品</h3>
+				<h4>中国工商银行净值型理财产品</h4>
 				<div class="c1">
 					<div>
 						<p>七日年化收益率</p>
@@ -174,7 +190,7 @@
 				</div>
 			</div>
 			<div class="likeitem">
-				<h3>中国工商银行个人增享90天...</h3>
+				<h4>中国工商银行个人增享90天...</h4>
 				<div class="c1">
 					<div>
 						<p>业绩比较基准</p>
@@ -198,7 +214,7 @@
 				<div class="div1">基金</div>
 			</div>
 			<div class="likeitem">
-				<h3>工银信添益快线货币</h3>
+				<h4>工银信添益快线货币</h4>
 				<div class="c1">
 					<div>
 						<p>每万份收益</p>
@@ -218,7 +234,7 @@
 				</div>
 			</div>
 			<div class="likeitem">
-				<h3>鹏华安盈宝货币基金</h3>
+				<h4>鹏华安盈宝货币基金</h4>
 				<div class="c1">
 					<div>
 						<p>每万份收益</p>
@@ -238,7 +254,7 @@
 				</div>
 			</div>
 			<div class="likeitem">
-				<h3>华丽现金增益</h3>
+				<h4>华丽现金增益</h4>
 				<div class="c1">
 					<div>
 						<p>每万份收益</p>
