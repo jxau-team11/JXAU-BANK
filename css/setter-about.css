@@ -86,7 +86,7 @@ header div{
 }
 #li1-hide p{
 	margin: 0.4rem;
-	color: #383232;
+	color: #375d65;
 }
 #li1-hide img{
 	width: 70%;
@@ -114,7 +114,7 @@ header div{
 	display: block;
 }
 #about-sure{
-	border-top: 0.0625rem solid #ebebeb;width: 100%;margin: 0;padding-top: 0.5rem;letter-spacing: 0.3rem;display: block;
+	border-top: 0.0625rem solid #ebebeb;width: 100%;margin: 0;padding-top: 0.5rem;letter-spacing: 0.3rem;display: block;color: #e57571!important;
 }
 /* #about-sure:active{
 	background-color: #e57571;
@@ -123,3 +123,12 @@ header div{
 .about-list li:active{
 	filter: brightness(95%);
 } 
+footer{
+	
+	position: fixed;margin: 0 auto;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	color: #0D131A;
+	text-align: center;
+}
