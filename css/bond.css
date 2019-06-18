@@ -1,0 +1,206 @@
+.head{
+	width: 100%;
+	height: 3.125rem;
+	background-color: white;
+	text-align: center;
+	vertical-align: middle;
+	
+}
+.triangle{
+	display: inline-block;
+	height: 0.9375rem;
+	width: 0.9375rem;
+	border: 0.03125rem solid grey;
+	margin-top: 0.9375rem;
+	margin-left: 0.3125rem;
+    transform: rotate(45deg);
+    border-right: none;
+    border-top: none;
+	float: left;
+}
+.text{
+	line-height: 2.9375rem;
+	font-size: 1.25rem;
+	font-weight: bolder;
+	color: grey;
+}
+.text1{
+	float: right;
+	font-size: 0.9375rem;
+	color: darkgrey;
+	line-height: 2.9375rem;
+}
+.search{
+	width: 100%;
+	height: 3.125rem;
+	 background-color: gainsboro; 
+}
+.nav{
+	display: flex;
+	width: 100%;
+	height: 6.25rem;
+	background-color: white;
+	flex-wrap: wrap;
+}
+/*  */
+.nav1{
+	height: 65%;
+	width: 49.6%;
+	background-color: white;
+/* 	text-align: center;
+	vertical-align: middle;
+	display: table-cell; */
+	border: 0.03125rem solid #ECF0F2;
+}
+.nav1 img{
+	
+	height: 100%;
+	width: 100%;
+}
+#nav1_1{
+	margin-top: 1.125rem;
+	display: inline-block;
+	width: 18%;
+	height: 43%;
+	margin-left: 16%;
+	float: left;
+}
+#nav1_2{
+	margin-left: 8%;
+	margin-top: 1.375rem;
+/* 	display: inline-block; */
+
+	float: left;
+}
+.nav2{
+	height: 35%;
+	width: 24.5%;
+	font-size: 12px;
+	background-color: white;
+	border: 0.03125rem solid #ECF0F2;
+	text-align: center;
+	line-height:2rem;
+	color: grey;
+	}
+	.nav3{
+		height: 25px;
+		width: 100%;
+		background-color: white;
+		margin-top: 20px;
+	}
+	.nav3 div{
+		float: left;
+		margin-left: 2.8125rem;
+		font-size: 0.75rem;
+		margin-top: 0.25rem;
+		color: #939393;
+	}
+	.bond{
+		width: 100%;
+		height: 8.125rem;
+		background-color:white;
+		border: 0.5px solid gainsboro;
+	}
+	.bond_head{
+		height: 25%;
+		width: 100%;
+		background-color: white;
+		border: 0.5px solid gainsboro;
+	}
+	#bond_name{
+    width: 45%;
+    height: 98%;
+    background-color:white;
+    font-size: 13px;
+    font-weight: bolder;
+    padding-left: 3px;
+    float: left;
+	}
+	#text-color{
+    width: 40px;
+    height: 15px;
+    border: 0px solid red;
+    border-radius: 5px;
+    background-color: green;
+    float: left;
+    margin-top: 8px;
+    margin-left: 20px;
+    font-size: 12px;
+    color: white;
+	padding-left: 4.5px;
+	}
+	#text-color1{
+    width: 30px;
+    height: 15px;
+    border: 0px solid red;
+    border-radius: 5px;
+    background-color: orange;
+    float: left;
+    margin-top: 8px;
+    margin-left: 5px;
+    font-size: 12px;
+    color: white;
+    padding-left: 4.5px;
+	}
+	#text-color2{
+		width: 40px;
+		height: 15px;
+		border: 0.5px solid grey;
+		border-radius: 5px;
+		background-color: white;
+		float: left;
+		margin-top: 8px;
+		margin-left: 5px;
+		font-size: 12px;
+		color: grey;
+		padding-left: 4.5px;
+	}
+	.bond_body{
+		height: 20px;
+	}
+	.bond_body div{
+		float: left;
+	    font-size: 0.75rem;
+	}
+	.bond_body :nth-child(1){
+		margin-left: 1%;
+	}
+	.bond_body :nth-child(2){
+		margin-left: 20%;
+	}
+	.bond_body :nth-child(3){
+		margin-left: 23%;
+	}
+	.bond_body1 div{
+		float: left;
+
+		
+		
+	}
+	.rate{
+		color: pink;
+		font-size: 1.25rem;
+	}
+	.time{
+		background-color: deeppink;
+		width: 150px;
+		height: 3px;
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+	.buy{
+		margin-left: 10px;
+		width: 70px;
+	}
+	.buy button{
+		border: 0.5px solid pink;
+		border-radius: 15px;
+		width: 50px;
+		background-color: white;
+	}
+	.time2{
+		width: 100%;
+		margin-top: 3.125rem;
+		font-size: 0.8125rem;
+		color: grey;
+		}
