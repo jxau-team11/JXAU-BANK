@@ -42,30 +42,30 @@ p{
 .alhotproblem-img img{
 	width: 21.5rem;
 }
-.al-answer-box{
+.al_answer_box{
 	width: 100%;
 	height: 50rem;
 }
-.al-answer-box-one{
+.al_answer_box_one{
 	max-width: 95%;
 	height: 1.875rem;
 	margin:  0 auto;
 	border-bottom: 0.00625rem solid silver;
 }
-.al-answer-box-one span{
+.al_answer_box_one span{
 	line-height: 1.875rem;
 	vertical-align: middle;
 }
-.al-answer-box-two{
+.al_answer_box_two{
 	max-width: 95%;
 	height: 3.75rem;
 	margin:  0 auto;
 	border-bottom: 0.00625rem solid silver;
 	
 }
-.al-answer-box-two p{
+.al_answer_box_two p{
 	color: red;
 }
-.al-answer-box-two span{
+.al_answer_box_two span{
 	font-size: 0.8rem;
 }

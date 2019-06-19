@@ -1,0 +1,76 @@
+body{
+	margin: 0;
+	background-color: rgb(241,242,242);
+}
+.loan_head{
+	width: 100%;
+	height: 2.5rem;
+	border-bottom: 0.0925rem solid darkgray;
+	background-color: white;
+}
+.loan_head div{
+	width: 2.5rem;
+	margin-left: 8.75rem;
+	margin-top: -1.6875rem;
+}
+.myloan{
+	background-color: white;
+	width: 100%;
+	height: 1.875rem;
+}
+.loan_box_one{
+	width: 95%;
+	height: 5.375rem;
+	background-color: white;
+	border-radius: 10px;
+	border: 1px solid darkgray;
+	margin: auto;
+}
+.loan_box_two{
+	width: 95%;
+	height: 5.375rem;
+	background-color: white;
+	border-radius: 10px;
+	border: 1px solid darkgray;
+	margin: auto;
+}
+.loan_box_three{
+	width: 95%;
+	height: 5.375rem;
+	background-color: white;
+	border-radius: 10px;
+	border: 1px solid darkgray;
+	margin: auto;
+}
+.loan_box_four{
+	width: 95%;
+	height: 5.375rem;
+	background-color: white;
+	border-radius: 10px;
+	border: 1px solid darkgray;
+	margin: auto;
+}
+.loan_box_five{
+	width: 95%;
+	height: 5.375rem;
+	background-color: white;
+	border-radius: 10px;
+	border: 1px solid darkgray;
+	margin: auto;
+}
+.loan_picture{
+	width: 4.0625rem;
+	height: 4.0625rem;
+	margin-top: 0.25rem;
+	margin-left: 1rem;
+}
+.loan_text{
+	line-height: 0.6875rem;
+	font-size: small;
+	width: 10rem;
+	height: 3.75rem;
+	margin-left: 6.75rem;
+	border-left: 0.125rem solid darkgray;
+	margin-top: -4.25rem;
+	padding-left: 0.9375rem;
+}
