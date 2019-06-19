@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/ICBC_czy.css" />
+    <script>
+        !(function(doc, win) {
+            var docEl = doc.documentElement,
+                    resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                    recalc = function() {
+                        var clientWidth = docEl.clientWidth;
+                        if (!clientWidth) return;
+                        docEl.style.fontSize = 6 * (clientWidth / 375) + 'px';
+                    };
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window)
+
+    </script>
+</head>
+    <body>
+        <div class="head_c bottom_c">
+            <a class="img1">
+                <img src="img/czy-img/left-1.png" />
+            </a>
+            <span class="title">私人银行</span>
+            <p class="img3">
+                <img src="img/czy-img/ellipsis.png" />
+            </p>
+            <a class="img2">
+                <img src="img/czy-img/客服.png"/>
+            </a>
+        </div>
+        <div class="contain_c">
+            <div class="list_y bottom_c">
+                <div class="title">
+                    <span>我的财富</span>
+                    <span>从资产期限、投资方向、负债结构、流动资产四个方向掌握自己的资产状况</span>
+                </div>
+                <a class="img">
+                    <img src="img/czy-img/right.png" />
+                </a>
+            </div>
+            <div class="list_y list_e bottom_c">
+                <div class="title">
+                    <span>专属理财</span>
+                    <span>查看、购买或赎回工行发行的理财产品；签订或撤销灵通快线或T+0理财协议</span>
+                </div>
+                <a class="img">
+                    <img src="img/czy-img/right.png" />
+                </a>
+            </div>
+            <div class="list_y  list_z list_e bottom_c">
+                <div class="title">
+                    <span>专属保险</span>
+                    <span>查看、购买或赎回工行发行的保险产品</span>
+                </div>
+                <a class="img">
+                    <img src="img/czy-img/right.png" />
+                </a>
+            </div>
+            <div class="list_c list_e bottom_c">
+                <span>投资账户</span>
+                <a class="img">
+                    <img src="img/czy-img/right.png" />
+                </a>
+            </div>
+            <div class="list_c list_e">
+                <span>我的预留理财产品</span>
+                <a class="img">
+                    <img src="img/czy-img/right.png" />
+                </a>
+            </div>
+            <div class="list_y bottom_c">
+                <div class="title">
+                    <span>增值服务</span>
+                    <span>私人银行增值服务门户：活动邀请、增值权益、商品服务</span>
+                </div>
+                <a class="img">
+                    <img src="img/czy-img/right.png" />
+                </a>
+            </div>
+            <div class="list_y list_z list_e bottom_c">
+                <div class="title">
+                    <span>委托确认</span>
+                    <span>查看、确认和撤销我收到的委托确认</span>
+                </div>
+                <a class="img">
+                    <img src="img/czy-img/right.png" />
+                </a>
+            </div>
+            <div class="list_y list_z list_e bottom_c">
+                <div class="title">
+                    <span>对账单</span>
+                    <span>定制、修改、终止我的对账服务协议</span>
+                </div>
+                <a class="img">
+                    <img src="img/czy-img/right.png" />
+                </a>
+            </div>
+        </div>
+    </body>
+</html>

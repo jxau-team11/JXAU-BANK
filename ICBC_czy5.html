@@ -4,6 +4,21 @@
         <meta charset="UTF-8">
         <title></title>
         <link rel="stylesheet" href="css/ICBC_czy3.css" />
+        <script>
+            !(function(doc, win) {
+                var docEl = doc.documentElement,
+                        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                        recalc = function() {
+                            var clientWidth = docEl.clientWidth;
+                            if (!clientWidth) return;
+                            docEl.style.fontSize = 6 * (clientWidth / 375) + 'px';
+                        };
+                if (!doc.addEventListener) return;
+                win.addEventListener(resizeEvt, recalc, false);
+                doc.addEventListener('DOMContentLoaded', recalc, false);
+            })(document, window)
+
+        </script>
     </head>
     <body>
         <div class="head_c bottom_c">
