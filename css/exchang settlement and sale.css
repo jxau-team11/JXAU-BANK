@@ -31,6 +31,8 @@
     top: -0.8rem;
     font-weight: 600;
     position: relative;
+	width: 60%;
+    left: 4rem;
 }
 .exchange__header_text2{
     font-size: 0.8rem;
