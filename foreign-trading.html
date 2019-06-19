@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>外汇买卖</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <link rel="stylesheet" type="text/css" href="css/foreign-trading.css">
+    <style type="text/css">
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .title{
+            width: 100%;
+           text-align: center;
+            margin-top: 0.5rem;
+        }
+        .title1{
+            float: left;
+            width: 7%;
+        }
+        .title span{
+            word-break: keep-all;
+            padding: 0;
+            margin: 0;
+            color: #887777;
+            margin-left: 1.125rem;
+        }
+        .title2{
+            float: right;
+            width: 7%;
+            margin-right: 0.5rem;
+        }
+        .heard{
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1.5px solid silver;
+            border-top: 1px solid #c0c0c03b;
+            width: 100%;
+            margin-top: 0.8125rem;
+        }
+        .heard1{
+            text-align: center;
+            margin-right: 1.875rem;
+        }
+        .heard p{
+            color: #8f8383;
+            margin-left: 0.625rem;
+        }
+         .heard1 p{
+             margin: 0;
+             font-size: 0.75rem;
+             color: #0000009c;
+             margin-top: -0.1785rem;
+         }
+         .heard1 img{
+             width: 74%;
+             height: 49%;
+             margin-top: 0.5rem;
+         }
+        .nav{
+         width: 100%;
+            display: flex;
+        }
+         .nav1{
+             width: 50%;
+             display: flex;
+             flex-direction: row;
+             justify-content:center;
+             align-items: center;
+         }
+          .nav1 img{
+              width: 22%;
+              height: 60%;
+          }
+          .nav1 p{
+              color: #0d131a;
+              margin-left: 9px;
+              font-size: 0.875rem;
+          }
+        .nav .nav1:first-child{
+            border-right: 1px solid #00000033;
+        }
+       .band{
+           width: 100%;
+           background-color: #38353526;
+       }
+        .band1-1{
+            width: 30%;
+            border-bottom: 1px solid #0000003d;
+            height: 1.1875rem;
+        }
+        .band1-2{
+            width: 30%;
+            border-bottom: 1px solid #0000003d;
+            height: 1.1875rem;
+        }
+        .band1 p{
+            font-size: 0.78rem;
+            color: #0000009c;
+            margin: 0.625rem;
+        }
+        .band1 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .band2{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+         .band2-1{
+           background-color: #ff0000a8;
+             text-align: center;
+             width: 49.5%;
+         }
+        .band2-2{
+            background-color: white;
+            text-align: center;
+            width: 49.5%;
+        }
+          .band2-1 p{
+              font-size: 0.75rem;
+              color: white;
+              margin: 0.3125rem;
+          }
+        .band2-2 p{
+            font-size: 0.75rem;
+            color: #00000054;
+            margin: 0.3125rem;
+        }
+        .band3{
+            display: flex;
+            justify-content: space-between;
+        }
+        .band3 p{
+            font-size: 0.8rem;
+            margin: 0.6rem;
+            color: #000000ad;
+        }
+        .main{
+            position: relative;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #0000004f;
+        }
+        .main-a{
+            width: 34%;
+        }
+        .main-aa{
+            width: 34%;
+        }
+        .main-aa img{
+         margin-right: 0.625rem;
+        }
+        .main-aa p{
+            margin: 0;
+            font-size: 0.875rem;
+            color: #000000b5;
+            word-break: keep-all;
+        }
+        .main-b{
+         position: relative;
+            margin-right: 2.5625rem;
+        }
+        .main-a img{
+            width: 28%;
+            margin-right:0.625rem;
+            margin-top: 0.625rem;
+        }
+         .main-a p{
+             margin: 0;
+             font-size: 0.875rem;
+             color: #000000b5;
+         }
+            .main-b p{
+                margin: 0;
+                font-size: 0.875rem;
+                color: #000000ad;
+                word-break: keep-all;
+            }
+       .s1{
+           position: absolute;
+           color: green;
+           font-size: 1.5rem;
+           top: 0.5625rem;
+           left: 1.875rem;
+       }
+        .main_b img{
+            width: 82%;
+            margin-left: 0.3125rem;
+        }
+      .s2{
+          position: absolute;
+          color: red;
+          font-size: 1.5rem;
+          top: 0.5625rem;
+          left: 1.875rem;
+      }
+
+
+        </style>
+</head>
+<body>
+<div>
+    <div class="title">
+        <img class="title1" src="img/foreign-trading/箭头.png"><span>外汇买卖</span><img class="title2" src="img/foreign-trading/更多.png"><img class="title2" src="img/foreign-trading/客服.png">
+    </div>
+    <div class="heard"><p>外汇买卖</p><div class="heard1"><img src="img/foreign-trading/刷新.png"><p>刷新</p></div>
+        </div>
+        <div class="nav"><div class="nav1"><img src="img/foreign-trading/包.png"><p>我的持仓</p></div>
+            <div class="nav1"><img src="img/foreign-trading/本子.png"><p>交易明细</p></div></div>
+        <div class="band">
+            <div class="band1">
+                <div class="band1-1"></div> <p>交易行情</p>   <div class="band1-2"></div>
+            </div>
+            <div class="band2">
+                <div class="band2-1"><p>先买入后卖出</p></div>
+                <div class="band2-2"><p>先卖入后买出</p></div>
+            </div>
+            <div class="band3">
+                <p>基本盘</p>
+                <p>银行买入价</p>
+                <p>银行卖出价</p>
+            </div>
+        </div>
+      <div class="main">
+          <div class="main-a"><img src="img/foreign-trading/英国.png"><img src="img/foreign-trading/澳大利亚.png"><p>英镑/澳大利亚元</p></div>
+          <div class="main-b"><p>1.12</p><img src="img/foreign-trading/箭头下降.png"><span class="s1">05</span></div>
+          <div class="main-b"><p>1.12</p><img src="img/foreign-trading/箭头下降.png"><span class="s1">35</span></div>
+      </div>
+    <div class="main">
+        <div class="main-aa"><img src="img/foreign-trading/美国.png"><img src="img/foreign-trading/加拿大.png"><p>美元/加拿大元</p></div>
+        <div class="main-b"><p>108.</p><img src="img/foreign-trading/箭头下降.png"><span class="s1">47</span></div>
+        <div class="main-b"><p>108.</p><img src="img/foreign-trading/箭头下降.png"><span class="s1">77</span></div>
+    </div>
+    <div class="main">
+        <div class="main-aa"><img src="img/foreign-trading/新西兰.png"><img src="img/foreign-trading/日本.png"><p>新西兰元/日元</p></div>
+        <div class="main-b"><p>1.25</p><img src="img/foreign-trading/箭头上.png"><span class="s2">81</span></div>
+        <div class="main-b"><p>1.26</p><img src="img/foreign-trading/箭头上.png"><span class="s2">11</span></div>
+    </div>
+    <div class="main">
+        <div class="main-aa"><img src="img/foreign-trading/新西兰.png"><img src="img/foreign-trading/加拿大.png"><p>新西兰元/欧元</p></div>
+        <div class="main-b"><p>0.68</p><img src="img/foreign-trading/箭头上.png"><span class="s2">66</span></div>
+        <div class="main-b"><p>0.68</p><img src="img/foreign-trading/箭头上.png"><span class="s2">96</span></div>
+    </div>
+        </div>
+
+</body>

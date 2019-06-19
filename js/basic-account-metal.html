@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+		<title>账户金属.</title>
+		<link rel="stylesheet" type="text/css" href="../css/basic-account-metal.css"/>
+		
+		<script language="javascript">
+function changCss(obj){
+var arr = document.getElementsByClassName("a1");
+for(var i=0;i<arr.length;i++){
+    if(obj==arr[i]){
+    obj.style.color="#fff"; 
+    obj.style.backgroundColor="#fc5859eb"; 
+}
+else
+{
+arr[i].style.color="#939393";
+arr[i].style.backgroundColor="#fff";
+}
+}
+}
+
+
+//查询时间
+ setInterval("time.innerHTML= '最后查询时间:'+new Date().toLocaleTimeString();",1000);  
+
+
+</script>
+
+	</head>
+	<body>
+		<header class="header1">
+			<a href="../favorite-all.html"><img src="../img/bank-epay/left.png" ></a> 
+			<div id="epay-logo">
+			<span>账户基本金属</span>	
+			</div> 
+			<a href="#"><img src="../img/favorite/server.png" ></a>
+			<div id="more-point">
+				<img src="../img/bank-epay/morepoint.png" style="filter: brightness(0%);margin-left: 0.2rem;" >
+				<div id="more">
+					<div class="sanjiao"></div>
+						<ul style="width: 100%;height: 100%;list-style: none;">
+							<li> <a>登入</a></li>
+							<li><a href="favorite-homepage.html">首页</a> </li>
+							<li><a>扫一扫</a> </li>
+							
+									</ul>
+								
+							</div>
+			</div> 
+		</header>
+		
+		<div class="account-top" style="height: 3.5rem;">
+			<span style="margin-left: 1.2rem;">账户基本金属 &reg;</span>
+			<a href="javascript:location.reload();"><img src="../img/bank-epay/renew.png" >
+			<p>刷新</p></a>
+		</div>
+		<div class="account-top" id="row2">
+			<div>
+				<a><img src="../img/favorite-all-img/企业.png" >我的持仓</a> </div>
+			<div> <a><img src="../img/favorite-all-img/all9.png" >交易明细</a></div>
+		</div>
+		<div class="row-3">
+			<hr />
+			<p>交易行情</p>
+		</div>
+		<div class="row-4">
+		<a href="#" onclick="changCss(this)"  class="a1">先买入后卖出</a>
+		<a href="#" onclick="changCss(this)" class="a1">先卖出后买入</a> </div>
+		<table border="0">
+			 <tr >
+				<td >品种</td>
+				<td style="color: #375d65;">银行买入价</td>
+				<td style="color: #375d65;">银行卖出价</td>
+				</tr>
+			<tr >
+				 <td>美元账户北美铜(连续产品)</td>
+				<td>2.6250</td>
+				<td>2.6505<img src="../img/czy-img/right.png" ></td>
+				</tr>
+			<tr >
+				<td>人民币账户北美铜(连续产品)</td>
+				<td>18.1889</td>
+				<td>18.3505<img src="../img/czy-img/right.png" ></td>
+				</tr>
+			<tr >
+				<td>美元账户北美铜1907</td>
+				<td>2.6289</td>
+				<td>2.6505<img src="../img/czy-img/right.png" ></td>
+				</tr> 
+			 <tr >
+				<td>人民币账户北美铜1907</td>
+				<td>18.1289</td>
+				<td>18.3505<img src="../img/czy-img/right.png" ></td>
+				</tr>
+			<tr >
+				<td>美元账户北美铜1909</td>
+				<td>2.6255</td>
+				<td>2.6510<img src="../img/czy-img/right.png" ></td>
+				</tr>
+			<tr >
+				<td>人民币账户北美铜1909</td>
+				<td>18.1924</td>
+				<td>18.3458<img src="../img/czy-img/right.png" ></td>
+				</tr> 
+		 <tfoot>
+			<tr style="border-bottom:none;">
+				<td style="color:#76c1c5;font-size: 0.9rem;padding: 0.4rem;width: 100%;" id="time" colspan="2"></td> </tr>
+		</tfoot>
+		</table>
+	</body>
+	
+	<script>
+	!(function(doc, win) {
+	var docEl = doc.documentElement,
+	resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+	recalc = function() {
+	var clientWidth = docEl.clientWidth;
+	if (!clientWidth) return;
+	docEl.style.fontSize = 18 * (clientWidth / 375) + 'px';
+	};
+	if (!doc.addEventListener) return;
+	win.addEventListener(resizeEvt, recalc, false);
+	doc.addEventListener('DOMContentLoaded', recalc, false);
+	})(document, window)
+	
+	</script>
+</html>

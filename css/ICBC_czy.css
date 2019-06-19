@@ -1,5 +1,6 @@
 body{
 	margin: 0;
+	background: whitesmoke;
 }
 .head_c{
 	background: white;
@@ -13,6 +14,7 @@ body{
 .head_c .img1 img{
 	height: 4rem;
 	width: 3rem;
+	margin-left: 1rem;
 	padding-top: 1rem;
 }
 .head_c .img2{
@@ -38,14 +40,18 @@ body{
 	font-size: 3rem;
 	margin-left: 20rem;
 }
+.head_c .title_3{
+	margin-left: 22rem;
+}
+.head_c .title_7{
+	margin-left: 15rem;
+}
 .bottom_c{
-	border-bottom: 0.01rem solid #000;
+	border-bottom: 0.01rem solid #9e9e9e;
 }
 .contain_c{
-	background: whitesmoke;
 	width: 100%;
 	height: 100rem;
-	position: absolute;
 }
 .list_c{
 	width: 100%;
@@ -62,14 +68,14 @@ body{
     margin-left: 2rem;
     float: left;
 }
-.list_c span{
+.list_c span, .list-e span{
 	font-size: 2.5rem;
 	margin-left: 2rem;
 }
-.list_c .img{
+.list_c .img, .list_e .img, .list_y .img{
 	float: right;
 }
-.list_c .img img{
+.list_c .img img, .list_e .img img, .list_y .img img{
 	width: 3rem;
 	height: 3rem;
 	margin-top: 2.5rem;
@@ -78,4 +84,41 @@ body{
 .list_d{
 	border-top: 0.01rem solid #b0abab;
 	border-bottom: 0.01rem solid #b0abab;
+}
+.list_y{
+	width: 100%;
+	height: 10rem;
+	background: white;
+	margin-top:3rem;
+}
+.list_e{
+	margin-top: 0;
+}
+.list_y .title{
+	width: 80%;
+	float: left;
+	height: 10rem;
+	margin-left: 2rem;
+}
+.list_z{
+	height: 8rem;
+}
+.list_z .title{
+	width: 80%;
+	float: left;
+	height: 8rem;
+	margin-left: 2rem;
+}
+.list_y .title span{
+	display: inline-block;
+	width: 100%;
+}
+.list_y .title span:nth-child(1){
+	font-size: 2.5rem;
+	height: 4rem;
+	line-height: 4rem;
+}
+.list_y .title span:nth-child(2){
+	font-size: 2rem;
+	color: lightgrey;
 }

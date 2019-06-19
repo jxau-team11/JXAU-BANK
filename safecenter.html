@@ -1,0 +1,88 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="css/safecenter.css" type="text/css" />
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<script type="text/javascript">
+			
+			document.addEventListener('plusready', function(){
+				//console.log("所有plus api都应该在此事件发生后调用，否则会出现plus is undefined。"
+				
+			});
+			
+		</script>
+		<script>
+		!(function(doc, win) {
+		var docEl = doc.documentElement,
+		resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+		recalc = function() {
+		var clientWidth = docEl.clientWidth;
+		if (!clientWidth) return;
+		docEl.style.fontSize = 18 * (clientWidth / 375) + 'px';
+		};
+		if (!doc.addEventListener) return;
+		win.addEventListener(resizeEvt, recalc, false);
+		doc.addEventListener('DOMContentLoaded', recalc, false);
+		})(document, window)
+		
+		</script>
+
+	</head>
+	<body>
+		<div class="head">
+		<div class="triangle"></div>
+			
+		
+		<div class="text">安全中心</div>
+		</div>
+		<div class="login">
+			<img src="img/safecenter/privacy_guide_background.png" />
+			<img src="img/safecenter/login_btn.png" />
+		</div>
+		<div class="nav">
+			<div class="nav1">
+				<div class="icon"><img src="img/safecenter/安全检测.png"></div>
+				<div>安全检测</div>
+			</div>
+			<div class="nav1">
+			<div class="icon"><img src="img/safecenter/警报.png"></div>
+			<div>警报</div>	
+			</div>
+			<div class="nav1">
+				<div class="icon"><img src="img/safecenter/锁.png"></div>
+				<div>账户安全锁</div>
+			</div>
+			<div class="nav1">
+				<div class="icon"><img src="img/safecenter/安全管理.png"></div>
+				<div>支付安全管理</div>
+			</div>
+			<div class="nav1">
+				<div class="icon"><img src="img/safecenter/三方协议.png"></div>
+				<div>三方协议管理</div>
+			</div>
+			<div class="nav1">
+				<div class="icon"><img src="img/safecenter/云.png"></div>
+				<div>云保管</div>
+			</div>
+			<div class="nav1">
+				<div class="icon"><img src="img/safecenter/手机.png"></div>
+				<div>手机号管理</div>
+			</div>
+			<div class="nav1">
+				<div class="icon"><img src="img/safecenter/更多.png"></div>
+				<div>更多</div>
+			</div>
+		</div>
+		<div class="title">安全日志</div>
+		<div class="describe">登录后，方可查看更多信息</div>
+		<div class="ppt">
+		<div class="big_ppt">
+		<img src="img/safecenter/捕获.PNG" />
+		<img src="img/safecenter/捕获2.PNG" />
+		<img src="img/safecenter/捕获3.PNG" />
+
+		</div>
+		</div>
+		
+	</body>
+	
+</html>

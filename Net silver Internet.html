@@ -13,6 +13,21 @@
 			});
 			
 		</script>
+		<script>
+		!(function(doc, win) {
+		var docEl = doc.documentElement,
+		resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+		recalc = function() {
+		var clientWidth = docEl.clientWidth;
+		if (!clientWidth) return;
+		docEl.style.fontSize = 18 * (clientWidth / 375) + 'px';
+		};
+		if (!doc.addEventListener) return;
+		win.addEventListener(resizeEvt, recalc, false);
+		doc.addEventListener('DOMContentLoaded', recalc, false);
+		})(document, window)
+		
+		</script>
 	</head>
 	<body>
 		<div class="net-interner-header">
@@ -34,16 +49,18 @@
 			</div>
 		</div>
 		
-		<div class="net-interner-box-one">
-			<div class="net-interner-box-one-left-two">
-				<span>签约登记/登记账户
+		<div class="joint-box-three">
+			<div class="joint-box-two-left">
+				<span class="joint-box-two-left-txtone">签约登记/登记账户</span>
 				</br>
-				<small>共享网银互联账户</small></span>
+				<span class="joint-box-two-left-txttwo">共享网银互联账户</span>
+
 			</div>
-			<div class="net-interner-box-one-right">
+			<div class="joint-box-three-right">
 				<img src="img/mine-img/mine-jiantou.png">
 			</div>
 		</div>
+
 		
 		<div class="net-interner-box-one">
 			<div class="net-interner-box-one-left">
