@@ -22,6 +22,7 @@ arr[i].style.backgroundColor="#fff";
 }
 }
 
+
 //查询时间
  setInterval("time.innerHTML= '最后查询时间:'+new Date().toLocaleTimeString();",1000);  
 
@@ -110,4 +111,20 @@ arr[i].style.backgroundColor="#fff";
 		</tfoot>
 		</table>
 	</body>
+	
+	<script>
+	!(function(doc, win) {
+	var docEl = doc.documentElement,
+	resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+	recalc = function() {
+	var clientWidth = docEl.clientWidth;
+	if (!clientWidth) return;
+	docEl.style.fontSize = 18 * (clientWidth / 375) + 'px';
+	};
+	if (!doc.addEventListener) return;
+	win.addEventListener(resizeEvt, recalc, false);
+	doc.addEventListener('DOMContentLoaded', recalc, false);
+	})(document, window)
+	
+	</script>
 </html>

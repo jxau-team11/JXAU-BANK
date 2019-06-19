@@ -5,7 +5,55 @@
 		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
 		<title>申请办卡</title>
 		<link rel="stylesheet" type="text/css" href="../css/apply-for-card.css"/>
+		
+		<script>
+		!(function(doc, win) {
+		var docEl = doc.documentElement,
+		resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+		recalc = function() {
+		var clientWidth = docEl.clientWidth;
+		if (!clientWidth) return;
+		docEl.style.fontSize = 18 * (clientWidth / 375) + 'px';
+		};
+		if (!doc.addEventListener) return;
+		win.addEventListener(resizeEvt, recalc, false);
+		doc.addEventListener('DOMContentLoaded', recalc, false);
+		})(document, window)
+		
+		</script>
 	</head>
 	<body>
+		<header class="header1">
+			<a href="../favorite-all.html"><img src="../img/bank-epay/left.png" ></a> 
+			<div id="epay-logo">
+			<span>申请办卡</span>	
+			</div> 
+			<a href="#"><img src="../img/favorite/server.png" ></a>
+			<div id="more-point">
+				<img src="../img/bank-epay/morepoint.png" style="filter: brightness(0%);margin-left: 0.2rem;" >
+				<div id="more">
+					<div class="sanjiao"></div>
+						<ul style="width: 100%;height: 100%;list-style: none;">
+							<li> <a>登入</a></li>
+							<li><a href="favorite-homepage.html">首页</a> </li>
+							<li><a>扫一扫</a> </li>
+							
+									</ul>
+								
+							</div>
+			</div> 
+		</header>
+			
+		<div class="apply-for-card-row1">
+			<form>
+				<input type="text" name="search" placeholder="想要办什么卡？" />
+				<span>查询</span>
+			</form>
+		</div>
+		<div class="apply-for-card-row2">
+			<a><div><img src="../img/mine-img/mine-dizhi.png" ><span>当前城市：南昌</span></div>
+		<small style="color:#f14c67;font-size: 1rem;">更多</small></a>
+			<div class="point-hide"></div>
+		</div>
 	</body>
 </html>

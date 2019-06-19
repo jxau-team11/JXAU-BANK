@@ -7,6 +7,21 @@
 		<link rel="stylesheet" type="text/css" href="../css/favorite.css"/>
 		<link rel="stylesheet" href="../css/swiper.min.css">
 
+<script>
+		!(function(doc, win) {
+		var docEl = doc.documentElement,
+		resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+		recalc = function() {
+		var clientWidth = docEl.clientWidth;
+		if (!clientWidth) return;
+		docEl.style.fontSize = 18 * (clientWidth / 375) + 'px';
+		};
+		if (!doc.addEventListener) return;
+		win.addEventListener(resizeEvt, recalc, false);
+		doc.addEventListener('DOMContentLoaded', recalc, false);
+		})(document, window)
+		
+		</script>
 	</head>
 	<body>
 <div id="fav-whole">
