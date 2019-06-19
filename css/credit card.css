@@ -30,6 +30,8 @@
     display: block;
     top: -1.6rem;
     position: relative;
+    width: 60%;
+    left: 62px;
 }
 .creditcard_header_a1{
     text-decoration: none;
