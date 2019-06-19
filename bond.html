@@ -11,6 +11,21 @@
 			});
 			
 		</script>
+		<script>
+		!(function(doc, win) {
+		var docEl = doc.documentElement,
+		resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+		recalc = function() {
+		var clientWidth = docEl.clientWidth;
+		if (!clientWidth) return;
+		docEl.style.fontSize = 18 * (clientWidth / 375) + 'px';
+		};
+		if (!doc.addEventListener) return;
+		win.addEventListener(resizeEvt, recalc, false);
+		doc.addEventListener('DOMContentLoaded', recalc, false);
+		})(document, window)
+		
+		</script>
 	</head>
 	<body>
 		<div class="head">
@@ -115,7 +130,7 @@
 				<div>100.00元</div>
 			</div>
 			<div class="bond_body1">
-				<div class="rate">3.36260%</div>
+				<div class="rate">3.3626%</div>
 				<div class="time"></div>
 				<div class="buy"><button>购买</button></div>
 			</div>
