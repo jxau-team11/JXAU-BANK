@@ -6,21 +6,48 @@
 		<title>申请办卡</title>
 		<link rel="stylesheet" type="text/css" href="../css/apply-for-card.css"/>
 		
-		<script>
+<script>
 		!(function(doc, win) {
 		var docEl = doc.documentElement,
 		resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
 		recalc = function() {
 		var clientWidth = docEl.clientWidth;
 		if (!clientWidth) return;
-		docEl.style.fontSize = 18 * (clientWidth / 375) + 'px';
-		};
+		docEl.style.fontSize = 18 * (clientWidth / 375) + 'px';};
 		if (!doc.addEventListener) return;
 		win.addEventListener(resizeEvt, recalc, false);
 		doc.addEventListener('DOMContentLoaded', recalc, false);
 		})(document, window)
+	
 		
-		</script>
+	//隐藏效果
+	document.onclick=function(ev){
+//要隐藏的 div 外点击事件
+var ev=window.event||ev;
+hide('false',ev,'');}
+
+function hide(CheckShow,evt,id){
+var obj=document.getElementById(id);
+var target=evt.target?evt.target:evt.srcElement;
+if(CheckShow == "true"){
+//首先排除事件的
+obj.style.display="block";
+return;}else
+if(target.id=="hide-box"||target.id=="button" )
+return;
+else
+obj.style.display="none";
+}
+
+function Show(){
+hide('true',0,'button');
+}
+function hiden(){
+document.getElementById("hide-box").style.display="none";
+}
+
+</script>
+		
 	</head>
 	<body>
 		<header class="header1">
@@ -50,10 +77,57 @@
 				<span>查询</span>
 			</form>
 		</div>
-		<div class="apply-for-card-row2">
+		<div class="apply-for-card-row2" >
 			<a><div><img src="../img/mine-img/mine-dizhi.png" ><span>当前城市：南昌</span></div>
 		<small style="color:#f14c67;font-size: 1rem;">更多</small></a>
-			<div class="point-hide"></div>
+			<div class="point-hide" onclick="Show();" id="hide-box">
+				<p style="width: 70%;padding: 0.3rem;padding-left: 0.7rem;">温馨提示：您选择的办卡城市需要与工作或者住宅地相同，否则可能导致申请不成功。</p>
+				<button onclick="hiden();" id="button">我知道了</button>
+			</div>
 		</div>
+		<div class="apply-for-card-row3">
+			<div class="a1"><span >全部品牌</span></div>
+			<ul id="brand">
+				<li>全部品牌</li>
+				<li>中国银联</li>
+				<li>威士</li>
+				<li>万事达卡</li>
+				<li>JBC</li>
+				<li>大来</li>
+			</ul>
+			<div class="a1"><span >全部等级</span></div>
+			<ul id="rank">
+				<li>全部等级</li>
+				<li>金卡</li>
+				<li>普卡</li>
+				<li>白金卡</li>
+			</ul>
+		</div>
+		<ul class="all-cards">
+			<li>
+				<div class="li-coren"><p>推荐</p></div>
+				<img src="../img/favorite/banner-4.jpg" >
+				<span>工银女性信用卡光芒系列Plus版
+				<p>境内外笔笔1%返现，Ligh| 立 即申请t光芒定制新客礼，启卡即收年费，无减免，适用特殊计息，详询官网</p>
+				</span>
+				<button>立即申请</button>
+			</li>
+			<li>
+				<div class="li-coren"><p>推荐</p></div>
+				<img src="../img/AI-invest/const1.png" >
+				<span>工银故宫联名信用卡
+				<p>首款故宫LOGO联名卡，白金卡免首年年费，限时赢故宫迎春礼盒，故宫图书、文创品9折，故宫AR特效。容时容差，适用特殊计息</p>
+				</span>
+				<button>立即申请</button>
+			</li>
+			<li>
+				<div class="li-coren"><p>推荐</p></div>
+				<img src="../img/Globalinsight_images/globalinsight_image1.jpg" >
+				<span>奋斗卡
+				<p>郎平代言、首创背印卡号设计，无忧金融、潮牌海淘返现、简约白金尊荣、安心保障四大锦囊，与同业一致计息规则，详见官网</p>
+				</span>
+				<button>立即申请</button>
+			</li>
+		</ul>
 	</body>
 </html>
