@@ -75,7 +75,7 @@
 .nav2{
 	height: 35%;
 	width: 24.5%;
-	font-size: 12px;
+	font-size: 0.75rem;
 	background-color: white;
 	border: 0.03125rem solid #ECF0F2;
 	text-align: center;
@@ -83,10 +83,10 @@
 	color: grey;
 	}
 	.nav3{
-		height: 25px;
+		height: 1.5625rem;
 		width: 100%;
 		background-color: white;
-		margin-top: 20px;
+		margin-top: 1.25rem;
 	}
 	.nav3 div{
 		float: left;
@@ -99,64 +99,64 @@
 		width: 100%;
 		height: 8.125rem;
 		background-color:white;
-		border: 0.5px solid gainsboro;
+		border: 0.03125rem solid gainsboro;
 	}
 	.bond_head{
 		height: 25%;
 		width: 100%;
 		background-color: white;
-		border: 0.5px solid gainsboro;
+		border: 0.03125rem solid gainsboro;
 	}
 	#bond_name{
     width: 45%;
     height: 98%;
     background-color:white;
-    font-size: 13px;
+    font-size: 0.8125rem;
     font-weight: bolder;
-    padding-left: 3px;
+    padding-left: 0.1875rem;
     float: left;
 	}
 	#text-color{
-    width: 40px;
-    height: 15px;
+    width: 2.5rem;
+    height: 0.9375rem;
     border: 0px solid red;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
     background-color: green;
     float: left;
-    margin-top: 8px;
-    margin-left: 20px;
-    font-size: 12px;
+    margin-top: 0.5rem;
+    margin-left: 1.25rem;
+    font-size: 0.75rem;
     color: white;
-	padding-left: 4.5px;
+	padding-left: 0.28125rem;
 	}
 	#text-color1{
-    width: 30px;
-    height: 15px;
+    width: 1.875rem;
+    height: 0.9375rem;
     border: 0px solid red;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
     background-color: orange;
     float: left;
-    margin-top: 8px;
-    margin-left: 5px;
-    font-size: 12px;
+    margin-top: 0.5rem;
+    margin-left: 0.3125rem;
+    font-size: 0.75rem;
     color: white;
-    padding-left: 4.5px;
+    padding-left: 0.28125rem;
 	}
 	#text-color2{
-		width: 40px;
-		height: 15px;
-		border: 0.5px solid grey;
-		border-radius: 5px;
+		width: 2.5rem;
+		height: 0.9375rem;
+		border: 0.03125rem solid grey;
+		border-radius: 0.3125rem;
 		background-color: white;
 		float: left;
-		margin-top: 8px;
-		margin-left: 5px;
-		font-size: 12px;
+		margin-top: 0.5rem;
+		margin-left: 0.3125rem;
+		font-size: 0.75rem;
 		color: grey;
-		padding-left: 4.5px;
+		padding-left: 0.28125rem;
 	}
 	.bond_body{
-		height: 20px;
+		height: 1.25rem;
 	}
 	.bond_body div{
 		float: left;
@@ -183,19 +183,19 @@
 	}
 	.time{
 		background-color: deeppink;
-		width: 150px;
-		height: 3px;
-		margin-top: 10px;
-		margin-left: 10px;
+		width: 9.375rem;
+		height: 0.1875rem;
+		margin-top: 0.625rem;
+		margin-left: 0.625rem;
 	}
 	.buy{
-		margin-left: 10px;
-		width: 70px;
+		margin-left: 0.625rem;
+		width: 3.375rem;
 	}
 	.buy button{
-		border: 0.5px solid pink;
-		border-radius: 15px;
-		width: 50px;
+		border: 0.03125rem solid pink;
+		border-radius: 0.9375rem;
+		width: 3.125rem;
 		background-color: white;
 	}
 	.time2{
