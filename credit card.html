@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>信用卡</title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <link type="text/css" rel="stylesheet" href="css/credit card.css" />
+    <script>
+        !(function(doc, win) {
+            var docEl = doc.documentElement,
+                    resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                    recalc = function() {
+                        var clientWidth = docEl.clientWidth;
+                        if (!clientWidth) return;
+                        docEl.style.fontSize = 18 * (clientWidth / 400) + 'px';
+                    };
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window)
+
+    </script>
+</head>
+<body style="margin: 0">
+    <div class="creditcard">
+        <div class="creditcard_header">
+            <a class="creditcard_header_a1" href="#">
+                <i id="creditcard_i1"></i>
+                <img class="creditcard_header_img1" src="img/set_images/set_img1.png" />
+                <img class="creditcard_header_img1" src="img/set_images/set_img2.png" />
+            </a>
+            <span class="creditcard_header_text1">信用卡</span>
+        </div>
+        <div class="creditcard_col1">
+            <div class="creditcard_col1_main">
+                <span class="creditcard_col1_text1">欢迎使用工银信用卡</span>
+                <a class="creditcard_col1_a1" href="#">
+                    <span class="creditcard_col1_text2">优卡推荐</span>
+                    <i class="creditcard_col1_i1"></i>
+                </a>
+                <div class="creditcard_col1_bottom">
+                    <list class="creditcard_col1_list1">
+                        <li class="creditcard_col1_li1">
+                            <a class="creditcard_col1_a2" href="#">
+                                <span class="creditcard_col1_text3">分期付款</span>
+                            </a>
+                        </li>
+                        <li class="creditcard_col1_li1 creditcard_col1_li2">
+                            <a class="creditcard_col1_a2" href="#">
+                                <span class="creditcard_col1_text3">立即还款</span>
+                            </a>
+                        </li>
+                    </list>
+                </div>
+            </div>
+            <list class="creditcard_col1_list2">
+                <li class="creditcard_col1_li3">
+                    <a class="creditcard_col1_a3" href="#">
+                        <img class="creditcard_col1_img1" src="img/creditcard_img/creditcard_img1.jpg">
+                        <span class="creditcard_col1_text4">账单查询</span>
+                        <span class="creditcard_col1_text5">|</span>
+                    </a>
+                </li>
+                <li class="creditcard_col1_li3">
+                    <a class="creditcard_col1_a3" href="#">
+                        <img class="creditcard_col1_img1" src="img/creditcard_img/creditcard_img2.jpg">
+                        <span class="creditcard_col1_text4">额度调整</span>
+                        <span class="creditcard_col1_text5">|</span>
+                    </a>
+                </li>
+                <li class="creditcard_col1_li3">
+                    <a class="creditcard_col1_a3" href="#">
+                        <img class="creditcard_col1_img1" src="img/creditcard_img/creditcard_img3.jpg">
+                        <span class="creditcard_col1_text4">卡片设置</span>
+                    </a>
+                </li>
+            </list>
+        </div>
+        <div class="creditcard_col2">
+            <list class="creditcard_col2_list1">
+                <li class="creditcard_col2_li1">
+                    <a class="creditcard_col2_a1" href="#">
+                        <img class="creditcard_col2_img1" src="img/creditcard_img/creditcard_img4.png">
+                        <span class="creditcard_col2_text1">申请办卡</span>
+                    </a>
+                </li>
+                <li class="creditcard_col2_li1">
+                    <a class="creditcard_col2_a1" href="#">
+                        <img class="creditcard_col2_img1" src="img/creditcard_img/creditcard_img5.png">
+                        <span class="creditcard_col2_text1">申请进度</span>
+                    </a>
+                </li>
+                <li class="creditcard_col2_li1">
+                    <a class="creditcard_col2_a1" href="#">
+                        <img class="creditcard_col2_img1" src="img/creditcard_img/creditcard_img6.png">
+                        <span class="creditcard_col2_text1">卡片启用</span>
+                    </a>
+                </li>
+                <li class="creditcard_col2_li1">
+                    <a class="creditcard_col2_a1" href="#">
+                        <img class="creditcard_col2_img1" src="img/creditcard_img/creditcard_img7.png">
+                        <span class="creditcard_col2_text1">Apple&nbsp;Pay</span>
+                    </a>
+                </li>
+                <li class="creditcard_col2_li1">
+                    <a class="creditcard_col2_a1" href="#">
+                        <img class="creditcard_col2_img1" src="img/creditcard_img/creditcard_img8.png">
+                        <span class="creditcard_col2_text1">融e借</span>
+                    </a>
+                </li>
+                <li class="creditcard_col2_li1">
+                    <a class="creditcard_col2_a1" href="#">
+                        <img class="creditcard_col2_img1" src="img/creditcard_img/creditcard_img9.png">
+                        <span class="creditcard_col2_text1">现金分期</span>
+                    </a>
+                </li>
+                <li class="creditcard_col2_li1">
+                    <a class="creditcard_col2_a1" href="#">
+                        <img class="creditcard_col2_img1" src="img/creditcard_img/creditcard_img10.png">
+                        <span class="creditcard_col2_text1">e分期</span>
+                    </a>
+                </li>
+                <li class="creditcard_col2_li1">
+                    <a class="creditcard_col2_a1" href="#">
+                        <img class="creditcard_col2_img1" src="img/creditcard_img/creditcard_img11.png">
+                        <span class="creditcard_col2_text1">急用钱</span>
+                    </a>
+                </li>
+            </list>
+        </div>
+
+        <div class="creditcard_col2 creditcard_col3">
+            <list class="creditcard_col2_list1">
+                <li class="creditcard_col2_li1">
+                    <a class="creditcard_col2_a1" href="#">
+                        <img class="creditcard_col2_img1" src="img/creditcard_img/creditcard_img14.png">
+                        <span class="creditcard_col2_text1">自动还款</span>
+                    </a>
+                </li>
+                <li class="creditcard_col2_li1">
+                    <a class="creditcard_col2_a1" href="#">
+                        <img class="creditcard_col2_img1" src="img/creditcard_img/creditcard_img15.png">
+                        <span class="creditcard_col2_text1">账户安全锁</span>
+                    </a>
+                </li>
+                <li class="creditcard_col2_li1">
+                    <a class="creditcard_col2_a1" href="#">
+                        <img class="creditcard_col2_img1" src="img/creditcard_img/creditcard_img16.png">
+                        <span class="creditcard_col2_text1">环球旅行卡</span>
+                    </a>
+                </li>
+                <li class="creditcard_col2_li1">
+                    <a class="creditcard_col2_a1" href="#">
+                        <img class="creditcard_col2_img1" src="img/creditcard_img/creditcard_img17.png">
+                        <span class="creditcard_col2_text1">智行天下</span>
+                    </a>
+                </li>
+            </list>
+        </div>
+        <div class="creditcard_home">
+            <div class="creditcard_home_frame">
+                <a id="a1" class="num"></a>
+                <a id="a2" class="num"></a>
+                <a id="a3" class="num"></a>
+                <div id="creditcard_photos" class="creditcard_play">
+                    <img src="img/creditcard_img/creditcard_img12.jpg" >
+                    <img src="img/creditcard_img/creditcard_img13.jpg" >
+                    <img src="img/creditcard_img/creditcard_img12.jpg" >
+                    <ul id="creditcard_dis">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
