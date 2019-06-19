@@ -34,15 +34,15 @@ p{
 
 .time-desposits-box-two{
 	margin-top: 1.25rem;
-		width: 100%;
-		height: 3.25rem;
+	width: 100%;
+	height: 3.25rem;
 		
-		background-color: white;
-		vertical-align: middle;
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-		word-wrap:break-word;
+	background-color: white;
+	vertical-align: middle;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	word-wrap:break-word;
 
 }
 .time-desposits-box-two span{
