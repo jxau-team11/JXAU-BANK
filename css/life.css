@@ -97,7 +97,7 @@ body{
 	background-color: white;
 }
 .life_classify_1 p{
-	line-height: 0rem;
+	line-height: 1rem;
 	font-size: 0.875rem;
 }
 .life_classify_1 img{
@@ -125,7 +125,7 @@ body{
 
  ul,li{
             list-style: none;
-			background-color: black;
+			background-color: white;
 			padding-inline-start:0
         }
         .slide-box{
