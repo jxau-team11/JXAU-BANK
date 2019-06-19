@@ -133,12 +133,8 @@ body{
 }
  ul,li{
             list-style: none;
-<<<<<<< HEAD
+
 			padding-inline-start:0;
-=======
-			background-color: white;
-			padding-inline-start:0
->>>>>>> 197988f3083feeafc23af336550da4fc8cc344ad
         }
         .slide-box{
             margin-top:33.625rem;
