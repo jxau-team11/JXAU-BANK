@@ -4,7 +4,22 @@
 		<meta charset="UTF-8">
 		<link rel="stylesheet" href="css/e_start.css" />
 		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-		<title></title>
+		<title>e起投</title>
+		<script>
+			!(function(doc, win) {
+				var docEl = doc.documentElement,
+						resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+						recalc = function() {
+							var clientWidth = docEl.clientWidth;
+							if (!clientWidth) return;
+							docEl.style.fontSize = 18 * (clientWidth / 400) + 'px';
+						};
+				if (!doc.addEventListener) return;
+				win.addEventListener(resizeEvt, recalc, false);
+				doc.addEventListener('DOMContentLoaded', recalc, false);
+			})(document, window)
+
+		</script>
 	</head>
 	<body>
 		<div class="e_start">

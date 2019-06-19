@@ -250,7 +250,7 @@ footer{
 	height: 2.95rem;
 	position: fixed;
 	bottom: 0;
-	background-color: #fff;
+	background-color: #fff!important;
 	border-top: 0.0625rem solid #ebebeb;
 }
 footer ul{
