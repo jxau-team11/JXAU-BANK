@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/e-life.css">
+		<title></title>
+		<script>
+			!(function(doc, win) {
+				var docEl = doc.documentElement,
+				resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+				recalc = function() {
+					var clientWidth = docEl.clientWidth;
+					if (!clientWidth) return;
+					docEl.style.fontSize = 18 * (clientWidth / 375) + 'px';
+				};
+				if (!doc.addEventListener) return;
+				win.addEventListener(resizeEvt, recalc, false);
+				doc.addEventListener('DOMContentLoaded', recalc, false);
+			})(document, window)
+			
+		</script>
+	</head>
+	<body>
+		<div class="e-life_top">
+			<a href="#">
+				<div style="float: left;height: 1rem;width: 1rem;margin: 1rem 0.5rem;">
+					<img src="img/e-life/left.png" width="100%" height="100%"/>
+				</div>
+			</a>
+			<a href="#">
+				<div style="float: left;height: 1rem;width: 1rem;margin: 1rem 2rem;">
+					<img src="img/e-life/login_exit.png" width="100%" height="100%"/>
+				</div>
+			</a>
+		</div>
+		
+		<div class="nav">
+			<div class="nav_top2">
+				<div style="width: 100%;height: 3rem;color: white;text-align: center;line-height: 2rem;">
+					我的
+					<div style="margin-top: 0.5rem;margin-right: 0.5rem;width: 1.5rem;height: 1.5rem;float: right;">
+						<img src="img/e-life/message2.png" width="100%" height="100%"  />
+					</div>
+				</div>
+				<div style="width: 2.5rem;height: 2.5rem;margin: 0rem 1rem;float: left;">
+					<img src="img/e-life/default_head_pic.png" width="100%" height="100%" />
+				</div>
+				<div style="float: left;margin: 0.5rem;width: 4.5rem;height: 1.3rem;border: 0.0625rem solid white;border-radius: 0.3rem;color: white;font-size: 0.875rem;text-align: center;">
+					登录/注册
+				</div>
+			</div>
+			<div style="width: 5rem;height: 6rem;margin: 0.5rem 0 0 1.5rem;float: left;">
+				<div style="width: 3rem;height: 3rem;background-color: orange;border-radius: 3rem;">
+					<img src="img/e-life/collection.png" width="60%" height="60%" style="margin: 20% 20%;"/>
+				</div>
+				<p style="font-size: 0.75rem;margin: 0 0.6rem;">收藏</p>
+			</div>
+			<div style="width: 5rem;height: 6rem;margin: 0.5rem 0;float: left;">
+				<div style="width: 3rem;height: 3rem;background-color: skyblue;border-radius: 3rem;">
+					<img src="img/e-life/estimate.png" width="60%" height="60%" style="margin: 20% 20%;"/>
+				</div>
+				<p style="font-size: 0.75rem;margin: 0 0.6rem;">评价</p>
+			</div>
+			<div style="width: 5rem;height: 6rem;margin: 0.5rem 0rem;float: left;">
+				<div style="width: 3rem;height: 3rem;background-color: greenyellow;border-radius: 3rem;">
+					<img src="img/e-life/ticket.png" width="60%" height="60%" style="margin: 20% 20%;"/>
+				</div>
+				<p style="font-size: 0.75rem;margin: 0 0.6rem;">票券</p>
+			</div>
+		</div>
+		
+		
+		<div class="order_center">
+			<div style="width: 100%;float: left;font-size: 0.875rem;">订单中心</div>
+			<div style="width: 3rem;height: 6rem;margin: 0.5rem 0 0 1.5rem;float: left;">
+				<div style="width: 3rem;height: 3rem;">
+					<img src="img/e-life/nopay.png" width="80%" height="80%" style="margin: 10% 10%;"/>
+				</div>
+				<p style="font-size: 0.75rem;margin: 0 0.6rem;">未付款</p>
+			</div>
+			<div style="width: 3rem;height: 6rem;margin: 0.5rem 0 0 1.5rem;float: left;">
+				<div style="width: 3rem;height: 3rem;">
+					<img src="img/e-life/pay.png" width="80%" height="80%" style="margin: 10% 10%;"/>
+				</div>
+				<p style="font-size: 0.75rem;margin: 0 0.6rem;">已付款</p>
+			</div>
+			<div style="width: 3rem;height: 6rem;margin: 0.5rem 0 0 1.5rem;float: left;">
+				<div style="width: 3rem;height: 3rem;">
+					<img src="img/e-life/exitpay.png" width="70%" height="70%" style="margin: 10% 15%;"/>
+				</div>
+				<p style="font-size: 0.75rem;margin: 0 0.6rem;">退款</p>
+			</div>
+			<div style="width: 3rem;height: 6rem;margin: 0.5rem 0 0 1.5rem;float: left;">
+				<div style="width: 3rem;height: 3rem;">
+					<img src="img/e-life/allorder.png" width="60%" height="60%" style="margin: 20% 20%;"/>
+				</div>
+				<p style="font-size: 0.75rem;margin: 0 0.6rem;">全部订单</p>
+			</div>
+		</div>
+		
+		<div style="width: 100%;height: 3rem;background-color: white;margin: 1rem 0;padding-top: 0.1rem;">
+			<div style="width: 2rem;height: 2rem;margin: 0.4rem 0.5rem;background-color: hotpink;border-radius: 0.2rem;float: left;">
+				<img src="img/e-life/shop.png" width="80%" height="80%" style="margin: 10% 10%;"/>
+			</div>
+			<div style="float: left;margin: 0.8rem 0.5rem;font-size: 0.875rem;">我要开店</div>
+			<div style="float: right;width: 1rem;height: 1rem;margin: 0.9rem 1rem ;">
+				<img src="img/e-life/right.png" width="100%" height="100%"/>
+			</div>
+		</div>
+		
+		<div class="e-life_bottom">
+			<div style="float: left;width: 50%;height: 100%;">
+				<a href="e-life.html" style="text-decoration: none;">
+					<div style="width: 1.5rem;height: 1.5rem;margin: 0.5rem 50%;">
+						<img src="img/e-life/coffee2.png" width="100%" height="100%" />
+					</div>
+					<div style="color: lightgray;font-size: 0.75rem;margin: -0.6rem 50%;width: 2rem;">生活</div>
+				</a>
+			</div>
+			<div style="float: right;width: 50%;height: 100%;">
+				<div style="width: 1.5rem;height: 1.5rem;margin: 0.5rem 50%;">
+					<img src="img/e-life/mine2.png" width="100%" height="100%" />
+				</div>
+				<div style="color: red;font-size: 0.75rem;margin: -0.6rem 50%;width: 2rem;">我的</div>
+			</div>
+		</div>
+	</body>
+</html>
