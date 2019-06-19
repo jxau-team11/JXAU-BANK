@@ -49,12 +49,12 @@ body{
 	overflow: hidden;
 }
 .big_carousel{
-	width: 450%;
+	width: 400%;
 	height:11.25rem ;
 	position: absolute;
 	top: 0;
 	animation: a;
-	animation-duration: 5s;
+	animation-duration: 6s;
 	animation-iteration-count: infinite;
 	
 }
@@ -62,8 +62,17 @@ body{
 	0%{
 		margin-left: 0;
 	}
+	5%{
+		margin-left: 0;
+	}
 	50%{
 		margin-left: -100%;
+	}
+	55%{
+		margin-left: -100%;
+	}
+	95%{
+		margin-left: -200%;
 	}
 	100%{
 		margin-left: -200%;
@@ -97,7 +106,7 @@ body{
 	background-color: white;
 }
 .life_classify_1 p{
-	line-height: 0rem;
+	line-height: 1rem;
 	font-size: 0.875rem;
 }
 .life_classify_1 img{
@@ -124,7 +133,12 @@ body{
 }
  ul,li{
             list-style: none;
+<<<<<<< HEAD
 			padding-inline-start:0;
+=======
+			background-color: white;
+			padding-inline-start:0
+>>>>>>> 197988f3083feeafc23af336550da4fc8cc344ad
         }
         .slide-box{
             margin-top:33.625rem;

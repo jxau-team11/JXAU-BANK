@@ -5,10 +5,25 @@
 	<meta charset="utf-8">
 	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
 	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<script>
+		!(function(doc, win) {
+		var docEl = doc.documentElement,
+		resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+		recalc = function() {
+		var clientWidth = docEl.clientWidth;
+		if (!clientWidth) return;
+		docEl.style.fontSize = 18 * (clientWidth / 375) + 'px';
+		};
+		if (!doc.addEventListener) return;
+		win.addEventListener(resizeEvt, recalc, false);
+		doc.addEventListener('DOMContentLoaded', recalc, false);
+		})(document, window)
+		
+    </script>
 </head>
 <body>
   <div>
-  	<div><img src="img/login-img/叉.png"></div>
+  	<div><a href="javascript:history.back(-1)"><img src="img/login-img/叉.png"></a></div>
   	<div class="heard"><img src="img/login-img/大象.jpg"></div>
 	  <div class="username">
 		  <img src="img/login-img/账户1.png"> <input type="text" placeholder="135****4856" ><img src="img/login-img/箭头.png" style="margin-left: 2.9375rem;">

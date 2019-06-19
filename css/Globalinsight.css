@@ -24,11 +24,14 @@
 	border-width: 0 0 0.1rem 0.1rem;
 }
 .globalinsight_header_text1{
-	color: #716a6a;
-	font-size: 0.9rem;
-	text-align: center;
-	display: block;
-	line-height: 2rem;
+    color: #716a6a;
+    font-size: 0.9rem;
+    text-align: center;
+    display: block;
+    line-height: 2rem;
+    width: 60%;
+    left: 3.8125rem;
+    position: relative;
 }
 .globalinsight_bgimg{
 	width: 100%;
@@ -57,6 +60,7 @@
     margin: 0.9rem 0.2rem 0.2rem 0.2rem;
 	height: 100%;
 	width: 100%;
+	padding-inline-start:0;
 }
 .globalinsight_col1_list_li{
 	height: 50%;
@@ -71,7 +75,7 @@
 	height: 1.5rem;
 	width: 1.6rem;
 	position: relative;
-	left: 1.54rem;
+	left: 0;
 }
 .globalinsight_col1_list_text1{
 	font-size: 0.7rem;

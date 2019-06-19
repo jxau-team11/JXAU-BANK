@@ -5,11 +5,26 @@
 		<title>工银环球通</title>
 		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
 		<link type="text/css" rel="stylesheet" href="css/Globalinsight.css" />
+		<script>
+		!(function(doc, win) {
+		var docEl = doc.documentElement,
+		resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+		recalc = function() {
+		var clientWidth = docEl.clientWidth;
+		if (!clientWidth) return;
+		docEl.style.fontSize = 18 * (clientWidth / 375) + 'px';
+		};
+		if (!doc.addEventListener) return;
+		win.addEventListener(resizeEvt, recalc, false);
+		doc.addEventListener('DOMContentLoaded', recalc, false);
+		})(document, window)
+		
+        </script>
 	</head>
 	<body style="margin: 0;">
 		<div class="globalinsight">
 			<div class="globalinsight_header">
-				<a class="globalinsight_header_a1" href="#">
+				<a href="javascript:history.back(-1)">
 						<i id="globalinsight_i1"></i>
 				</a>
 				<span class="globalinsight_header_text1">工银环球通</span>

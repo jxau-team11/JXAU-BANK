@@ -6,7 +6,7 @@
     margin-bottom: 1.125rem;
 }
 .heard img{
-    width: 22%;
+    width:34%;
 }
 .username{
     border-top: 1px solid #d6d1d1;
@@ -47,7 +47,7 @@ body{
     text-decoration: none;
     color: #0707f6ad;
     display: inline-block;
-    border-right: 1px solid #e3d9d9;
+    border-right: 0.0625rem solid #e3d9d9;
     font-size: 0.85rem;
     padding: 0 0.375rem;
 }
