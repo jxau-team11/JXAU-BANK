@@ -46,14 +46,13 @@ body{
 	background-color: red;
 	color: white;
 }
-.oil_onehundred:hover .oil_onehundred-show{
+.oil_onehundred:hover .oil_onehundred_show{
 	display: block;
 
 }
-.oil_onehundred-show{
+.oil_onehundred_show{
 	display: none;
 	margin-top: 123px;
-
 	position: absolute;
 	height: 2.4375rem;
 	background-color: white;
@@ -75,11 +74,11 @@ body{
 	background-color: red;
 	color: white;
 }
-.oil_fivehundred:hover .oil_onehundred-show-two{
+.oil_fivehundred:hover .oil_fivehundred_show{
 	display: block;
 
 }
-.oil_onehundred-show-two{
+.oil_fivehundred_show{
 	    display: none;
     margin-top: 123px;
     position: absolute;
@@ -103,11 +102,11 @@ body{
 	background-color: red;
 	color: white;
 }
-.oil_tenhundred:hover .oil_onehundred-show-three{
+.oil_tenhundred:hover .oil_tenhundred_show{
 	display: block;
 
 }
-.oil_onehundred-show-three{
+.oil_tenhundred_show{
 	    display: none;
     margin-top: 123px;
     position: absolute;

@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+}
+.header_c{
+    background: white;
+    width: 100%;
+    height: 6rem;
+    color: #8e8585;
+}
+.header_c .img1{
+    float: left;
+}
+.header_c .img1 img{
+    height: 4rem;
+    width: 3rem;
+    padding-top: 1rem;
+}
+.header_c .img2{
+    float: right;
+}
+.header_c .img2 img{
+    height: 4rem;
+    width: 4rem;
+    padding-top: 1rem;
+}
+.header_c .text1{
+    float: right;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    color: #8A8A8A;
+    font-size: 2.5rem;
+    padding-top: 1.5rem;
+}
+.header_c .img3 img{
+    height: 5rem;
+    width: 5rem;
+}
+.header_c .title{
+    display: inline-block;
+    margin-top: 0.5rem;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    margin-left: 20rem;
+}
+.bottom_c{
+    border-bottom: 0.01rem solid #000;
+}
+.contain_c{
+    background: whitesmoke;
+    width: 100%;
+    height: 100rem;
+    position: absolute;
+}
+.contain_c .bt_c{
+    height: 80rem;
+    width:100%;
+}
+.contain_c .bt_c img{
+    width:100%;
+    height:100%;
+}
+.contain_c .bo_c{
+    width: 100%;
+}
+.contain_c .bo_c .img img{
+    width: 98%;
+    height: 7rem;
+    margin-top: 1.5rem;
+    margin-left: 0.5rem;
+    margin-bottom: 3rem;
+}
+.contain_c .bo_c .text2{
+    font-size: 2rem;
+    color: #1b4dda;
+    margin-left: 24rem;
+}
